@@ -1,0 +1,32 @@
+<div class="project vslide">
+    <div class="table">
+        <div>
+            <span style="background-image: url(<%= response["Link to a profile picture."] %>)">
+        </div>
+        <div>
+
+            <h4><%= response["Your Name"].upcase %></h4>
+            <h5><%= response["What is the name is your app?"].upcase %></h5>
+            <h5><%= link_to response["App Url"], url_with_protocol(response["App Url"]), :target => '_blank' %></h5>
+
+        </div>
+    </div>
+
+    <p class="hideable"><%= response["What is your rationale in creating the app?"]%></p>
+
+
+    <h5 class="hideable">TECHNOLOGY USED</h5>
+
+    <p class="hideable"><%= response["Technologies used."].upcase %></p>
+
+    <div class="table">
+      <div>
+        <h6>Portfolio Site: <%= link_to response["Portfolio Site"], url_with_protocol(response["Portfolio Site"]), :target => '_blank' %></h6>
+        <h6>Email Address: <%= mail_to response["Email Address"] %></h6>
+        <h6>GitHub Username: <%= link_to (response["Git Hub"] || "").split("/")[3], url_with_protocol(response["Git Hub"]), :target => '_blank' %></h6>
+      </div>
+
+    </div>
+
+
+</div>
