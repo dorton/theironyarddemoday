@@ -27,14 +27,14 @@ helpers do
     staff.sort_by {|lastname| lastname["name"].split(" ").last}
   end
 
-  def campus
-    campus = []
-
-    CSV.foreach("./data/campus.csv", headers: true) do |row|
-      campus << OpenStruct.new(row.to_hash)
-    end
-    campus
-  end
+  # def campus
+  #   campus = []
+  #
+  #   CSV.foreach("./data/campus.csv", headers: true) do |row|
+  #     campus << OpenStruct.new(row.to_hash)
+  #   end
+  #   campus
+  # end
 
 end
 
