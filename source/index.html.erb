@@ -61,15 +61,18 @@
       <% rails.each do |response| %>
         <%= partial "project", locals: {response: response} %>
       <% end %>
+
     </div>
+
 <div></div>
+
     <div class="page-break-before">
         <h4>Front End Engineering</h4>
     </div>
     <div class="grid grid-2-640 projects">
 
 
-      <% students("JS").each do |response| %>
+      <% js.each do |response| %>
         <%= partial "project", locals: {response: response} %>
       <% end %>
     </div>

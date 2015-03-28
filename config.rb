@@ -7,9 +7,13 @@ helpers do
 
   def rails
 
-    data.responses.select {|c| c["class"] =~ /Rails/}
+    data.responses.select {|c| c["class"] =~ /Rails/}.sort_by {|lastname| lastname["name"].split(" ").last}
 
-    rails.sort_by {|lastname| lastname["name"].split(" ").last}
+  end
+
+  def js
+
+    data.responses.select {|c| c["class"] =~ /JS/}.sort_by {|lastname| lastname["name"].split(" ").last}
 
   end
 
