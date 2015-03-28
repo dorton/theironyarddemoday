@@ -58,7 +58,7 @@
     </div>
     <div class="grid grid-2-640 projects">
 
-      <% responses("Rails").each do |response| %>
+      <% rails.each do |response| %>
         <%= partial "project", locals: {response: response} %>
       <% end %>
     </div>
@@ -69,7 +69,7 @@
     <div class="grid grid-2-640 projects">
 
 
-      <% responses("JS").each do |response| %>
+      <% students("JS").each do |response| %>
         <%= partial "project", locals: {response: response} %>
       <% end %>
     </div>

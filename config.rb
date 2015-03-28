@@ -1,23 +1,25 @@
 require 'csv'
 require 'ostruct'
+require "json"
 
 helpers do
 
-  def responses(selector)
-    responses = []
 
-    CSV.foreach("./data/responses.csv", headers: true) do |row|
-      next unless row.to_hash["Class"] =~ /#{selector}/
-      responses << OpenStruct.new(row.to_hash)
-    end
-    responses.sort_by {|lastname| lastname["Your Name"].split(" ").last}
+  def rails
+
+    data.responses.select {|c| c["class"] =~ /Rails/}
+
+    rails.sort_by {|lastname| lastname["name"].split(" ").last}
+
   end
 
 
-    def url_with_protocol(url)
-      /^http/i.match(url) ? url : "http://#{url}"
-    end
+  # adds http protocol when people submit a url without one
+  def url_with_protocol(url)
+    /^http/i.match(url) ? url : "http://#{url}"
+  end
 
+  # Staff csv file
   def staff
     staff = []
 
@@ -37,7 +39,7 @@ helpers do
   # end
 
 end
-
+# middleman deploy
 activate :deploy do |deploy|
   deploy.method = :git
   # Optional Settings
