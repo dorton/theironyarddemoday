@@ -1,29 +1,29 @@
 <div class="project vslide">
     <div class="table">
         <div>
-            <span style="background-image: url(<%= response["pic"] %>)">
+            <span style="background-image: url(<%= response.pic %>)">
         </div>
         <div>
 
-            <h4><%= response["name"].upcase %></h4>
-            <h5><%= response["app_name"].upcase %></h5>
-            <h5><%= link_to response["app_url"], url_with_protocol(response["App Url"]), :target => '_blank' %></h5>
+            <h4><%= response.name.upcase %></h4>
+            <h5><%= response.app_name.upcase %></h5>
+            <h5><%= link_to response.app_url, url_with_protocol(response.app_url), :target => '_blank' %></h5>
 
         </div>
     </div>
 
-    <p class="hideable"><%= response["rationale"]%></p>
+    <p class="hideable"><%= response.rationale %></p>
 
 
     <h5 class="hideable">TECHNOLOGY USED</h5>
 
-    <p class="hideable"><%= response["tech"].upcase %></p>
+    <p class="hideable"><%= response.tech.upcase %></p>
 
     <div class="table">
       <div>
-        <h6>Portfolio Site: <%= link_to response["portfolio"], url_with_protocol(response["Portfolio Site"]), :target => '_blank' %></h6>
-        <h6>Email Address: <%= mail_to response["email"] %></h6>
-        <h6>GitHub Username: <%= link_to (response["github"] || "").split("/")[3], url_with_protocol(response["Git Hub"]), :target => '_blank' %></h6>
+        <h6>Portfolio Site: <%= link_to response.portfolio, url_with_protocol(response.portfolio), :target => '_blank' %></h6>
+        <h6>Email Address: <%= mail_to response.email %></h6>
+        <h6>GitHub Username: <%= link_to (response.github || "").split("/")[3], url_with_protocol(response.github), :target => '_blank' %></h6>
       </div>
 
     </div>
