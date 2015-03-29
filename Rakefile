@@ -1,4 +1,4 @@
-task :letsgo do
+task :deploy do
 
   require "rubygems"
   require "google_drive_v0"
@@ -19,7 +19,7 @@ task :letsgo do
 
       File.open('data/responses.json', 'w') { |f| f << responses.to_json }
 
-      # system("middleman build")
-      # system("middleman deploy")
+      system("middleman build")
+      system("middleman deploy")
 
 end
