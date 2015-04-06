@@ -4,19 +4,15 @@ require "json"
 
 helpers do
 
-
+  # filters rails students
   def rails
-
     data.responses.select {|c| c["class"] =~ /Rails/}.sort_by {|lastname| lastname["name"].split(" ").last}
-
   end
 
+  # filters js students
   def js
-
     data.responses.select {|c| c["class"] =~ /JS/}.sort_by {|lastname| lastname["name"].split(" ").last}
-
   end
-
 
   # adds http protocol when people submit a url without one
   def url_with_protocol(url)
