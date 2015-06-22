@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html id="min">
+
+<head>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"> -->
+    <title>Demo Day | The Iron Yard</title>
+</head>
+
+<body style="">
+    <div class="grid grid-2-640 hideable">
+        <div class="vslide c">
+            <h1 class="tera">Demo
+                <br>Day</h1>
+            <h3> <%= "The Iron Yard - #{city_name.titleize}" %> </h3>
+            <p>March 27, 2015</p>
+            <%= image_tag "iron-yard-logo.svg", style: "preserveAspectRatio=MinYMin slice" %>
+        </div>
+    </div>
+
+<h4 class="c hideable page-break-before">Staff Profiles</h4>
+
+      <% staff.select {|c| c.city == "#{city_name}"}.each do |staff| %>
+        <%= partial "staff", locals: {staff: staff} %>
+      <% end %>
+
+
+
+    <div class="c footer">
+        <%= image_tag "iron-yard-logo.svg", style: "preserveAspectRatio=MinYMin slice" %>
+
+    </div>
+</body>
+
+</html>
