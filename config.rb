@@ -1,17 +1,26 @@
 require 'csv'
 require 'ostruct'
 require "json"
+require 'open-uri'
+
 
 helpers do
 
+  def all_students
+    json = open("https://tiydemoday.herokuapp.com/api/v1/students?city=Houston").read
+    JSON.parse(json)["students"].map do |hash|
+      OpenStruct.new(hash)
+    end
+  end
+
   # filters rails students
   def rails
-    data.responses.select {|c| c["class"] =~ /Rails/}.sort_by {|lastname| lastname["name"].split(" ").last}
+    all_students.select {|c| c["course"] =~ /Rails Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
   end
 
   # filters js students
   def js
-    data.responses.select {|c| c["class"] =~ /JS/}.sort_by {|lastname| lastname["name"].split(" ").last}
+    all_students.select {|c| c["course"] =~ /Front End Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
   end
 
   # adds http protocol when people submit a url without one
@@ -26,17 +35,9 @@ helpers do
     CSV.foreach("./data/staff.csv", headers: true) do |row|
       staff << OpenStruct.new(row.to_hash)
     end
-    staff.sort_by {|lastname| lastname["name"].split(" ").last}
+    staff
   end
 
-  # def campus
-  #   campus = []
-  #
-  #   CSV.foreach("./data/campus.csv", headers: true) do |row|
-  #     campus << OpenStruct.new(row.to_hash)
-  #   end
-  #   campus
-  # end
 
 end
 # middleman deploy

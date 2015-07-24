@@ -16,3 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem 'middleman-deploy', '~> 1.0'
 
 gem 'google_drive'
+
+gem 'httparty'
