@@ -1,0 +1,2509 @@
+@charset "UTF-8";
+@media only screen and (max-width: 775px) {
+  /* line 2, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .header .logo {
+    float: none;
+    width: 160px;
+    margin: 0 auto; } }
+/* line 7, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav {
+  display: none; }
+
+@media only screen and (max-width: 775px) {
+  /* line 10, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .mobile-nav {
+    display: block; } }
+/* line 12, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas {
+  height: 60px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  z-index: 1; }
+
+/* line 19, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas a {
+  color: #eef1f6; }
+
+/* line 21, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas a:hover {
+  text-decoration: none; }
+
+/* line 23, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas .mobile-nav-apply {
+  background: #6fbbb7;
+  width: 50%;
+  float: left;
+  height: 100%;
+  text-align: center; }
+
+/* line 29, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas .mobile-nav-menu {
+  background: #A6A6A6;
+  height: 100%;
+  text-align: center; }
+
+/* line 33, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas .mobile-nav-menu:hover {
+  cursor: pointer; }
+
+/* line 35, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .mobile-ctas .mobile-nav-menu img {
+  width: 18px;
+  position: relative;
+  top: 3px;
+  left: 6px; }
+
+/* line 40, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .logo {
+  width: 30%; }
+
+/* line 42, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .primary-nav {
+  padding: 0;
+  background: #727d84; }
+
+/* line 45, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .primary-nav ul {
+  width: 100%;
+  margin-bottom: 10px; }
+
+/* line 48, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .primary-nav ul li {
+  padding: 18px 0;
+  width: 100%;
+  border-bottom: 1px solid #8d969c;
+  display: block;
+  margin: 0; }
+
+/* line 54, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .primary-nav ul li a:hover {
+  border-bottom: none; }
+
+/* line 56, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .secondary-nav {
+  background: #727d84;
+  padding: 0; }
+
+/* line 59, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .secondary-nav ul li {
+  display: block;
+  padding: 8px 0;
+  width: 100%;
+  border-bottom: 1px solid #8d969c;
+  display: block;
+  margin: 0; }
+
+/* line 66, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-nav .secondary-nav ul li:last-of-type {
+  width: 100%; }
+
+@media only screen and (max-width: 775px) {
+  /* line 70, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .nav {
+    display: none; } }
+/* line 73, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.responsive-nav {
+  display: none; }
+
+/* line 76, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.focused {
+  background-color: #fff7c0; }
+
+/* line 79, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hide {
+  display: none; }
+
+/* line 82, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.notranslate {
+  padding: 10px 20px; }
+
+/* line 85, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#title3 {
+  display: block; }
+
+/* line 88, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.new-dark-gray-bg {
+  background: #39474E; }
+
+/* line 91, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.brand-text {
+  color: #39474E; }
+
+/* line 94, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.std-link-text {
+  color: #6FBBB7; }
+
+/* line 97, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.net-bg, .net-btn {
+  background-color: #9d70b0;
+  color: #fff; }
+
+/* line 101, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.net-text {
+  color: #9d70b0; }
+
+@media only screen and (min-width: 990px) {
+  /* line 105, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .nav {
+    padding-top: 0 !important; } }
+/* line 108, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.primary-nav {
+  width: 30% !important; }
+
+@media only screen {
+  /* line 111, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .primary-nav {
+    width: 100% !important; } }
+@media only screen and (min-width: 990px) {
+  /* line 114, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .primary-nav {
+    width: 55% !important;
+    margin-top: 28px !important; } }
+@media only screen {
+  /* line 118, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .primary-nav ul {
+    display: inline-block; } }
+/* line 121, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.secondary-nav {
+  width: 70% !important; }
+
+@media only screen {
+  /* line 124, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav {
+    width: 100% !important; }
+
+  /* line 126, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav .apply-now {
+    margin-top: 14px; } }
+@media only screen and (min-width: 990px) {
+  /* line 129, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav {
+    width: 45% !important;
+    position: relative;
+    top: 8px !important; }
+
+  /* line 133, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav a {
+    font-size: 14px !important; } }
+@media only screen and (min-width: 770px) and (max-width: 990px) {
+  /* line 136, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav {
+    bottom: 16px; }
+
+  /* line 138, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav a {
+    font-size: 14px !important; } }
+@media only screen and (max-width: 400px) {
+  /* line 141, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav ul {
+    margin-left: 0 !important; } }
+@media only screen and (min-width: 770px) and (max-width: 990px) {
+  /* line 144, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .secondary-nav .apply-now {
+    position: absolute;
+    right: 0;
+    top: -40px; } }
+/* line 149, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer {
+  position: relative;
+  height: inherit;
+  margin-top: 0; }
+
+/* line 153, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer .footer-nav {
+  display: inline-block; }
+
+@media only screen {
+  /* line 156, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav {
+    padding-top: 0; } }
+/* line 159, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer .footer-nav ul {
+  text-align: left; }
+
+@media only screen {
+  /* line 162, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav ul {
+    padding: 4px 0; } }
+@media only screen and (min-width: 401px) {
+  /* line 165, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav ul {
+    padding: 10px 0; } }
+@media only screen and (min-width: 600px) {
+  /* line 168, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav ul {
+    width: 70%; } }
+@media only screen and (min-width: 1025px) {
+  /* line 171, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav ul {
+    padding-top: 10px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 174, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .footer-nav ul {
+    width: 100%;
+    padding-top: 20px; } }
+/* line 177, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer .copyright {
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px; }
+
+@media only screen {
+  /* line 183, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .copyright {
+    width: 80%; } }
+@media only screen and (min-width: 401px) {
+  /* line 186, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .copyright {
+    width: 100%; } }
+/* line 188, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer .social-nav ul {
+  text-align: left; }
+
+@media only screen {
+  /* line 191, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .social-nav ul {
+    margin: 4px 20px 0px 5px; } }
+/* line 193, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.footer .tiy-logo {
+  position: absolute; }
+
+@media only screen {
+  /* line 196, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo {
+    right: 10px;
+    bottom: 4px; } }
+@media only screen and (min-width: 640px) {
+  /* line 200, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo {
+    top: 36px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 203, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo {
+    top: 34px; } }
+@media only screen {
+  /* line 206, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo img {
+    height: 58px; } }
+@media only screen and (min-width: 640px) {
+  /* line 209, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo img {
+    height: 100px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 212, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .footer .tiy-logo img {
+    height: 80px; } }
+/* line 215, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.apply-now {
+  background: #6fbbb7;
+  color: #fff !important;
+  width: 125px;
+  font-size: 14px; }
+
+/* line 220, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.apply-now:hover {
+  background: #5B9D99; }
+
+/* line 223, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.watch-video {
+  background: #6fbbb7;
+  color: #fff !important;
+  padding: 0 20px;
+  line-height: 40px;
+  margin-top: 10px;
+  min-width: 220px; }
+
+@media only screen and (max-width: 400px) {
+  /* line 231, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .watch-video {
+    font-size: 18px; } }
+/* line 233, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.watch-video:hover {
+  background: #5B9D99;
+  cursor: pointer; }
+
+/* line 236, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.watch-video img {
+  position: relative;
+  top: 6px; }
+
+/* line 239, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.watch-video span {
+  vertical-align: top;
+  line-height: 54px; }
+
+/* line 243, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.read-stories {
+  background: #6fbbb7;
+  color: #fff !important;
+  padding: 6px 20px 8px;
+  line-height: 40px;
+  min-width: 320px; }
+
+/* line 249, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.read-stories:hover {
+  background: #5B9D99;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 253, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .read-stories {
+    min-width: 80px;
+    font-size: 18px;
+    padding: 4px 6px 6px; } }
+/* line 258, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.discover-courses {
+  background: #6fbbb7;
+  color: #fff !important;
+  padding: 6px 16px 8px;
+  line-height: 40px; }
+
+/* line 263, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.discover-courses:hover {
+  background: #5B9D99;
+  cursor: pointer; }
+
+/* line 267, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-hero-cta {
+  color: #eef1f6; }
+
+/* line 269, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-hero-cta h3 {
+  font-size: 24px;
+  margin: 0; }
+
+/* line 272, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-hero-cta .btn {
+  margin-bottom: 30px;
+  height: 50px; }
+
+/* line 275, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-hero-cta .btn img {
+  width: 36px; }
+
+/* line 277, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mobile-hero-cta .btn span {
+  line-height: 48px; }
+
+@media only screen and (min-width: 775px) {
+  /* line 280, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .mobile-hero-cta {
+    display: none; } }
+/* line 283, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home {
+  background: url("/images/home/home-hero.jpg") no-repeat center center;
+  background-size: cover;
+  margin-top: -21px;
+  position: relative; }
+
+@media only screen {
+  /* line 289, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home {
+    height: 300px;
+    background-position: 68%; } }
+@media only screen and (min-width: 600px) {
+  /* line 293, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home {
+    background-position: 0;
+    height: 450px; } }
+@media only screen and (min-width: 1025px) {
+  /* line 297, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home {
+    height: 600px; } }
+@media only screen and (max-width: 775px) {
+  /* line 300, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .cta-text {
+    display: none; } }
+/* line 302, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .close-video {
+  top: 20px;
+  opacity: 0;
+  position: absolute;
+  z-index: 20;
+  cursor: pointer;
+  transition: all 3s linear;
+  transition-delay: 3s; }
+
+/* line 310, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .close-video.active {
+  display: block !important;
+  opacity: 1 !important;
+  transition: all 3s linear;
+  transition-delay: 3s; }
+
+/* line 315, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .close-video.inactive {
+  display: none !important;
+  opacity: 0 !important;
+  transition: all 3s linear;
+  transition-delay: 3s; }
+
+/* line 320, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .vimeo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 10; }
+
+/* line 328, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .vimeo.active {
+  display: block !important;
+  opacity: 1 !important; }
+
+/* line 331, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .vimeo.inactive {
+  display: none !important;
+  opacity: 0 !important; }
+
+@media only screen {
+  /* line 335, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container {
+    padding-top: 110px; } }
+@media only screen and (min-width: 1025px) {
+  /* line 338, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container {
+    padding-top: 156px; } }
+/* line 340, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .container h1, .hero-banner-home .container .typed-h3 {
+  color: #fff;
+  font-weight: 600; }
+
+@media only screen {
+  /* line 344, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container h1 {
+    font-size: 33px;
+    margin-bottom: -6px; } }
+@media only screen and (min-width: 500px) {
+  /* line 348, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container h1 {
+    margin-bottom: -20px; } }
+@media only screen and (min-width: 1025px) {
+  /* line 351, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container h1 {
+    font-size: 60px; } }
+/* line 353, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .container .mobile-h3 {
+  color: #fff;
+  font-weight: 600; }
+
+@media only screen and (min-width: 500px) {
+  /* line 357, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container .mobile-h3 {
+    display: none; } }
+/* line 359, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hero-banner-home .container .typed-h3 {
+  margin-top: -10px; }
+
+@media only screen {
+  /* line 362, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container .typed-h3 {
+    font-size: 16px;
+    display: none; } }
+@media only screen and (min-width: 500px) {
+  /* line 366, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container .typed-h3 {
+    display: inline-block; } }
+@media only screen and (min-width: 1025px) {
+  /* line 369, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .hero-banner-home .container .typed-h3 {
+    display: inline-block;
+    font-size: 24px; } }
+/* line 373, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.9s infinite;
+  animation: blink 0.9s infinite;
+  color: #fff; }
+
+@media only screen {
+  /* line 379, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .typed-cursor {
+    display: none;
+    font-size: 18px; } }
+@media only screen and (min-width: 500px) {
+  /* line 383, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .typed-cursor {
+    display: inline-block;
+    font-size: 34px; } }
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@media only screen {
+  /* line 408, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section {
+    padding: 16px 16px 60px 36px; } }
+@media only screen and (min-width: 767px) {
+  /* line 411, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section {
+    padding: 30px 90px 50px 90px; } }
+/* line 413, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.stories-section h1 {
+  color: #727d84;
+  line-height: 56px;
+  text-indent: -30px;
+  text-decoration: italic;
+  quotes: "“" "”" "‘" "’"; }
+
+@media only screen {
+  /* line 420, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section h1 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px; } }
+@media only screen and (min-width: 400px) {
+  /* line 425, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section h1 {
+    font-size: 30px;
+    line-height: initial; } }
+@media only screen and (min-width: 991px) {
+  /* line 429, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section h1 {
+    width: 370px; } }
+/* line 431, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.stories-section h1:before {
+  content: open-quote; }
+
+/* line 433, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.stories-section h1:after {
+  content: close-quote; }
+
+/* line 435, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.stories-section h1::last-line {
+  width: 420px; }
+
+/* line 437, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.stories-section p {
+  color: #727d84;
+  font-style: italic; }
+
+@media only screen {
+  /* line 441, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section p {
+    width: 260px; }
+
+  /* line 443, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section p:nth-child(1) {
+    font-style: normal;
+    text-indent: 0px;
+    width: 100%; } }
+@media only screen and (min-width: 767px) {
+  /* line 448, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .stories-section p:nth-child(1) {
+    margin-top: 40px; } }
+@media only screen and (max-width: 775px) {
+  /* line 452, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .news-icons {
+    display: none; } }
+/* line 455, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section {
+  padding-bottom: 50px; }
+
+/* line 457, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section img {
+  margin-top: 50px; }
+
+/* line 459, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy {
+  margin-top: -32px; }
+
+/* line 461, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy p {
+  margin-top: 0;
+  font-size: 16px; }
+
+/* line 464, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy p:nth-child(2n+1) {
+  font-style: italic;
+  margin-bottom: 0; }
+
+/* line 467, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .fee-name, .student-section .student-copy .python-name, .student-section .student-copy .design-name, .student-section .student-copy .rails-name, .student-section .student-copy .mobile-name {
+  margin-bottom: 0; }
+
+/* line 469, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .fee-name, .student-section .student-copy .fee-link {
+  color: #ce832d; }
+
+/* line 471, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .python-name, .student-section .student-copy .python-link {
+  color: #5bbd7b; }
+
+/* line 473, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .design-name, .student-section .student-copy .design-link {
+  color: #35a0ad; }
+
+/* line 475, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .rails-name, .student-section .student-copy .rails-link {
+  color: #b8584c; }
+
+/* line 477, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .mobile-name, .student-section .student-copy .mobile-link {
+  color: #d3b42b; }
+
+/* line 479, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.student-section .student-copy .net-name, .student-section .student-copy .net-link {
+  color: #9c6fb0; }
+
+/* line 482, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section {
+  padding-top: 40px; }
+
+/* line 484, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section h2 {
+  color: #727d84; }
+
+@media only screen {
+  /* line 487, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .code-school-section h2 {
+    font-size: 27px; } }
+@media only screen and (min-width: 500px) {
+  /* line 490, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .code-school-section h2 {
+    font-size: 34px; } }
+/* line 492, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section p {
+  width: 80%; }
+
+@media only screen and (max-width: 400px) {
+  /* line 495, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .code-school-section p {
+    width: 96%; } }
+/* line 497, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section .btn {
+  margin-top: 20px; }
+
+/* line 499, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section img {
+  width: 100%;
+  max-width: 550px; }
+
+/* line 502, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.code-school-section .caption {
+  text-align: center;
+  font-size: 12px; }
+
+@media only screen {
+  /* line 507, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses {
+    padding: 0; } }
+@media only screen and (min-width: 760px) {
+  /* line 510, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses {
+    padding: 60px 0; } }
+/* line 513, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section {
+  position: relative; }
+
+/* line 515, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .course-box {
+  float: left;
+  border: 1px solid #d0d1d3;
+  background: #fff;
+  text-align: center;
+  min-height: 475px;
+  padding: 50px 20px;
+  position: relative; }
+
+@media only screen {
+  /* line 524, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .course-box {
+    width: 100%; } }
+@media only screen and (min-width: 640px) {
+  /* line 527, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .course-box {
+    width: 50%; } }
+@media only screen and (min-width: 1025px) {
+  /* line 530, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .course-box {
+    width: 33.33%; } }
+/* line 532, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .course-box p {
+  font-size: 16px;
+  margin-top: 0;
+  font-style: italic;
+  padding: 0 20px; }
+
+/* line 537, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .course-box h2 {
+  font-style: italic;
+  text-transform: capitalize;
+  color: #727D84;
+  line-height: 42px; }
+
+/* line 542, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .course-box .apply-now {
+  background: #6fbbb7;
+  font-size: 24px;
+  padding: 0px 20px 4px;
+  width: 234px;
+  text-transform: capitalize; }
+
+/* line 548, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .course-box .apply-now:hover {
+  background: #5B9D99;
+  cursor: pointer; }
+
+/* line 551, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box {
+  position: relative;
+  padding: 20px 20px 20px 34px;
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid #D0D1D3;
+  margin: 30px auto; }
+
+@media only screen {
+  /* line 559, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box {
+    width: 96%;
+    min-height: 300px;
+    text-align: center; } }
+@media only screen and (min-width: 450px) {
+  /* line 564, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box {
+    min-height: 160px; } }
+@media only screen and (min-width: 990px) {
+  /* line 567, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box {
+    text-align: left;
+    height: 160px;
+    width: 75%;
+    margin: 50px auto 0px; } }
+/* line 572, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box h2 {
+  margin: 0;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #727D84; }
+
+@media only screen {
+  /* line 578, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box h2 {
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px; } }
+@media only screen and (min-width: 640px) {
+  /* line 583, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box h2 {
+    margin-top: 10px; } }
+@media only screen and (min-width: 990px) {
+  /* line 586, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box h2 {
+    margin-top: 20px;
+    display: inline-block; } }
+/* line 589, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box .about-tuition {
+  color: #6fbbb7;
+  position: relative;
+  top: 8px;
+  font-size: 18px; }
+
+/* line 594, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box .about-tuition:hover {
+  cursor: pointer; }
+
+@media only screen {
+  /* line 597, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .about-tuition {
+    margin: 0 auto; } }
+@media only screen and (min-width: 990px) {
+  /* line 600, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .about-tuition {
+    display: block; } }
+@media only screen {
+  /* line 603, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .btn-holder {
+    text-align: center;
+    margin-top: 40px; } }
+@media only screen and (min-width: 640px) {
+  /* line 607, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .btn-holder {
+    margin-top: 60px; } }
+@media only screen and (min-width: 990px) {
+  /* line 610, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .btn-holder {
+    position: absolute;
+    right: 36px;
+    top: -14px; } }
+/* line 614, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box .btn-holder .btn {
+  background: #6FBBB7; }
+
+/* line 616, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .apply-box .btn-holder .btn:hover {
+  background: #5B9D99; }
+
+@media only screen and (max-width: 435px) {
+  /* line 619, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .apply-box .btn-holder.crash-course-btn {
+    position: relative;
+    bottom: 18px; } }
+/* line 622, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .fee-header {
+  color: #ce832d;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 627, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .design-header {
+  color: #35a0ad;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 632, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .rails-header {
+  color: #b8584c;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 637, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .mobile-header {
+  color: #d5b810;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 642, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .python-header {
+  color: #0dc67d;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 647, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .net-header {
+  color: #9C6FB0;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  font-size: 18px; }
+
+/* line 652, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .fee-eng .btn {
+  background: #db820c;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 662, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .fee-eng .btn:hover {
+  background: #C07209;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 666, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .fee-eng .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 671, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .fee-eng .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 674, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .web-design .btn {
+  background: #00a5b1;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 684, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .web-design .btn:hover {
+  background: #038B95;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 688, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .web-design .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 693, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .web-design .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 696, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .rails-eng .btn {
+  background: #c94e43;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 706, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .rails-eng .btn:hover {
+  background: #A73E34;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 710, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .rails-eng .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 715, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .rails-eng .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 718, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .mobile-eng .btn {
+  background: #d5b810;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 728, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .mobile-eng .btn:hover {
+  background: #B49B0C;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 732, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .mobile-eng .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 737, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .mobile-eng .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 740, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .python-eng .btn {
+  background: #0dc67d;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 750, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .python-eng .btn:hover {
+  background: #06A264;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 754, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .python-eng .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 759, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .python-eng .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 762, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .net-eng .btn {
+  background: #9C6FB0;
+  padding: 4px 20px 8px;
+  text-transform: capitalize;
+  font-size: 24px;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  bottom: 50px;
+  min-width: 220px; }
+
+/* line 772, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-section .net-eng .btn:hover {
+  background: #753F8D;
+  cursor: pointer; }
+
+@media only screen and (max-width: 400px) {
+  /* line 776, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .net-eng .btn {
+    right: 16%;
+    left: 15%;
+    bottom: 40px; } }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* line 781, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-section .net-eng .btn {
+    left: 16%;
+    bottom: 27px; } }
+/* line 785, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container, .contact-faq-container {
+  border: 1px solid #d0d1d3;
+  width: 80%;
+  margin: 60px auto; }
+
+@media only screen {
+  /* line 790, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container, .contact-faq-container {
+    width: 94%; } }
+/* line 792, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions, .contact-faq-container .questions {
+  display: inline-block;
+  position: relative;
+  background: #eee;
+  vertical-align: top;
+  min-height: 600px; }
+
+@media only screen {
+  /* line 799, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions, .contact-faq-container .questions {
+    width: 100%; } }
+@media only screen and (min-width: 1025px) {
+  /* line 802, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions, .contact-faq-container .questions {
+    width: 49.8%; } }
+/* line 804, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .top-content, .contact-faq-container .questions .top-content {
+  padding: 94px 40px;
+  position: relative; }
+
+/* line 807, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .top-content .chat-container, .contact-faq-container .questions .top-content .chat-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: none; }
+
+/* line 815, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+  display: inline-block;
+  height: 130px;
+  width: 100%;
+  background: white;
+  position: relative;
+  top: 28px; }
+
+@media only screen and (min-width: 600px) {
+  /* line 823, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+    top: 58px; } }
+@media only screen and (min-width: 990px) {
+  /* line 826, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+    top: 54px; } }
+@media only screen and (min-width: 1000px) {
+  /* line 829, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+    top: 82px; } }
+@media only screen and (min-width: 1025px) {
+  /* line 832, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+    top: 6px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 835, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .questions .bottom-content, .contact-faq-container .questions .bottom-content {
+    top: 28px; } }
+/* line 837, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content a:hover, .contact-faq-container .questions .bottom-content a:hover {
+  text-decoration: none;
+  background: #575E63; }
+
+/* line 840, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .email, .contact-container .questions .bottom-content .chat, .contact-faq-container .questions .bottom-content .email, .contact-faq-container .questions .bottom-content .chat {
+  padding: 36px 0;
+  cursor: pointer; }
+
+/* line 843, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .email .content, .contact-container .questions .bottom-content .chat .content, .contact-faq-container .questions .bottom-content .email .content, .contact-faq-container .questions .bottom-content .chat .content {
+  text-align: center; }
+
+/* line 845, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .email .content h3, .contact-container .questions .bottom-content .chat .content h3, .contact-faq-container .questions .bottom-content .email .content h3, .contact-faq-container .questions .bottom-content .chat .content h3 {
+  color: #fff;
+  font-style: italic;
+  margin: -10px 0;
+  font-size: 24px; }
+
+/* line 850, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .email, .contact-faq-container .questions .bottom-content .email {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: #727d84; }
+
+/* line 855, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .chat, .contact-faq-container .questions .bottom-content .chat {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background: #6fbbb7; }
+
+/* line 860, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .questions .bottom-content .chat:hover, .contact-faq-container .questions .bottom-content .chat:hover {
+  background: #5DAFAB;
+  cursor: pointer; }
+
+/* line 863, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers, .contact-faq-container .phone-numbers {
+  display: inline-block;
+  position: relative;
+  min-height: 600px; }
+
+@media only screen {
+  /* line 868, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers, .contact-faq-container .phone-numbers {
+    width: 100%;
+    padding: 36px 0 0; } }
+@media only screen and (min-width: 1025px) {
+  /* line 872, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers, .contact-faq-container .phone-numbers {
+    width: 49.8%;
+    padding: 36px 50px 0; } }
+/* line 875, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers .chat-container, .contact-faq-container .phone-numbers .chat-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: none; }
+
+/* line 883, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers ul, .contact-faq-container .phone-numbers ul {
+  display: inline-block;
+  width: 40%;
+  margin: 0 0 25px 22px; }
+
+@media only screen and (min-width: 400px) {
+  /* line 888, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul, .contact-faq-container .phone-numbers ul {
+    margin: 32px 6px 12px 29px; } }
+@media only screen and (min-width: 990px) {
+  /* line 891, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul, .contact-faq-container .phone-numbers ul {
+    margin: 24px 8px 12px 10px;
+    width: 44%; } }
+/* line 894, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers ul li, .contact-faq-container .phone-numbers ul li {
+  list-style-type: none;
+  margin-bottom: 18px; }
+
+/* line 897, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers ul li p, .contact-faq-container .phone-numbers ul li p {
+  color: #7a8b8f;
+  margin: 0; }
+
+@media only screen {
+  /* line 901, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul li p, .contact-faq-container .phone-numbers ul li p {
+    font-size: 15px; } }
+@media only screen and (min-width: 500px) {
+  /* line 904, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul li p, .contact-faq-container .phone-numbers ul li p {
+    font-size: 18px; } }
+/* line 906, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers ul li a, .contact-faq-container .phone-numbers ul li a {
+  color: #6fbbb7; }
+
+/* line 908, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-container .phone-numbers ul li a:hover, .contact-faq-container .phone-numbers ul li a:hover {
+  cursor: pointer; }
+
+@media only screen {
+  /* line 911, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul li a, .contact-faq-container .phone-numbers ul li a {
+    font-size: 15px; } }
+@media only screen and (min-width: 500px) {
+  /* line 914, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-container .phone-numbers ul li a, .contact-faq-container .phone-numbers ul li a {
+    font-size: 18px; } }
+@media only screen {
+  /* line 918, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-faq-container {
+    min-height: 528px; } }
+@media only screen and (min-width: 399px) {
+  /* line 921, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-faq-container {
+    min-height: 436px; } }
+@media only screen and (min-width: 992px) {
+  /* line 924, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-faq-container {
+    min-height: 570px; } }
+/* line 926, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container .questions {
+  min-height: initial;
+  position: relative;
+  width: 100%; }
+
+/* line 930, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container .questions .top-content {
+  padding: 36px 20px; }
+
+/* line 932, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container .questions .bottom-content {
+  top: 6px; }
+
+@media only screen and (min-width: 1200px) {
+  /* line 935, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .contact-faq-container .questions .bottom-content {
+    top: 16px; } }
+/* line 937, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #hbl_operator_state_div {
+  height: 70%; }
+
+/* line 939, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #hbl_operator_state_div #hbl_region, .contact-faq-container #hbl_operator_state_div #habla_window_div, .contact-faq-container #hbl_operator_state_div #habla_window_state_div, .contact-faq-container #hbl_operator_state_div #habla_panel_div, .contact-faq-container #hbl_operator_state_div #habla_expanded_div, .contact-faq-container #hbl_operator_state_div #habla_middle_div, .contact-faq-container #hbl_operator_state_div #habla_middle_wrapper_div, .contact-faq-container #hbl_operator_state_div #habla_conversation_div, .contact-faq-container #hbl_operator_state_div #habla_offline_message_div {
+  height: 100%; }
+
+/* line 941, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #habla_middle_div {
+  height: 100%; }
+
+/* line 943, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #habla_conversation_div {
+  height: 100% !important; }
+
+/* line 945, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container .hbl_pal_title_fg {
+  width: 86%; }
+
+/* line 947, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #hbl_txt_wrapper {
+  height: 240px; }
+
+/* line 949, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #habla_middle_wrapper_div {
+  height: 100%; }
+
+/* line 951, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.contact-faq-container #habla_offline_body_input {
+  height: 163px !important; }
+
+/* line 954, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section {
+  background-size: cover; }
+
+@media only screen {
+  /* line 957, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .employers-section {
+    background: #727D84; } }
+@media only screen and (min-width: 990px) {
+  /* line 960, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .employers-section {
+    background: url("/images/home/employers-image.jpg") no-repeat center center;
+    background-size: cover; } }
+/* line 963, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section h2 {
+  color: #fff;
+  text-align: center;
+  font-style: italic; }
+
+/* line 967, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section p {
+  text-align: center;
+  color: #fff;
+  padding: 0 10%; }
+
+/* line 972, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* line 976, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section .employer-icon {
+  text-align: center; }
+
+/* line 978, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.employers-section .employer-icon img {
+  width: 50%;
+  max-width: 230px; }
+
+/* line 982, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section {
+  padding: 20px; }
+
+/* line 984, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section h2 {
+  text-align: center; }
+
+/* line 986, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section h3 {
+  text-align: center; }
+
+/* line 988, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section h4 {
+  display: inline-block;
+  font-style: italic;
+  vertical-align: top;
+  position: relative;
+  top: 50px; }
+
+/* line 994, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section .sponsors-container {
+  text-align: center; }
+
+/* line 996, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section .sponsors-container.featured {
+  border-radius: 4px;
+  max-width: 1000px; }
+
+@media only screen {
+  /* line 1000, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .sponsors-section .sponsors-container.featured {
+    width: 100%;
+    background: #E3E7E9;
+    margin: 0 auto; } }
+@media only screen and (min-width: 401px) {
+  /* line 1005, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .sponsors-section .sponsors-container.featured {
+    width: 70%;
+    background: #E3E7E9; } }
+/* line 1008, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.sponsors-section .sponsors-container .sponsor-image {
+  display: inline-block;
+  text-align: center; }
+
+/* line 1012, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.media-logo {
+  display: inline-block;
+  width: 14%;
+  padding: 0 4px; }
+
+@media only screen {
+  /* line 1017, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .media-logo {
+    width: 40%; } }
+@media only screen and (min-width: 400px) {
+  /* line 1020, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .media-logo {
+    width: 30%; } }
+@media only screen and (min-width: 640px) {
+  /* line 1023, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .media-logo {
+    width: 18%; } }
+@media only screen and (min-width: 1050px) {
+  /* line 1026, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .media-logo {
+    width: 13%; } }
+/* line 1029, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.habla-desktop {
+  font-family: "ff-tisa-web-pro", serif;
+  background: white;
+  background: #FFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+/* line 1039, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hbl_pal_title_fg {
+  display: none; }
+
+/* line 1042, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_offline_message_span {
+  font-size: 20px;
+  font-weight: 600; }
+
+/* line 1046, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_window_div {
+  margin: 0 !important;
+  padding: 16px; }
+
+/* line 1050, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_name_input, #habla_offline_email_input, #habla_wcsend_input {
+  padding-left: 8px;
+  width: 100%;
+  border: 1px solid #D0D1D3;
+  height: 30px !important;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+/* line 1059, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_offline_body_input {
+  height: 320px !important;
+  border: 1px solid #D0D1D3;
+  border-radius: 2px;
+  width: 100%;
+  padding-left: 8px; }
+
+/* line 1066, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_offline_submit_input {
+  background: #6FBBB7;
+  border: none;
+  padding: 0px 26px 4px;
+  border-radius: 4px;
+  font-size: 24px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+  float: right;
+  top: 10px;
+  margin-top: 16px; }
+
+/* line 1079, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_conversation_div {
+  border: 1px solid #D0D1D3;
+  padding-left: 6px; }
+
+/* line 1083, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_both_div {
+  position: relative; }
+
+/* line 1085, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_both_div .close-chat {
+  position: absolute;
+  z-index: 20;
+  font-size: 24px;
+  font-weight: 600; }
+
+/* line 1090, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#habla_both_div .close-chat:hover {
+  cursor: pointer; }
+
+@media only screen {
+  /* line 1093, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  #habla_both_div .close-chat {
+    right: -10px;
+    top: -26px; } }
+@media only screen and (min-width: 500px) {
+  /* line 1097, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  #habla_both_div .close-chat {
+    right: 0;
+    top: -8px; } }
+/* line 1101, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hbl_pal_title_fg {
+  display: inline-block;
+  color: #39474E;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  bottom: 4px; }
+
+/* line 1108, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hbl_pal_title_fg:hover {
+  text-decoration: none; }
+
+/* line 1111, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.habla_conversation_person2 {
+  color: #39474E;
+  font-style: uppercase;
+  font-weight: 600; }
+
+/* line 1116, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.habla_conversation_p_item {
+  margin: 0;
+  padding: 4px 8px; }
+
+/* line 1120, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.olrk_avatar {
+  margin-right: 8px; }
+
+/* line 1123, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.text-center {
+  text-align: center; }
+
+/* line 1126, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.success-stories-btn {
+  background: #6FBBB7; }
+
+@media only screen {
+  /* line 1129, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .success-stories-btn {
+    font-size: 18px; } }
+@media only screen and (min-width: 640px) {
+  /* line 1132, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .success-stories-btn {
+    font-size: 22px; } }
+/* line 1134, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.success-stories-btn:hover {
+  background: #5B9D99; }
+
+/* line 1137, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.header-dimmer {
+  background: none !important; }
+
+/* line 1140, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.feed-box {
+  padding: 20px 10px; }
+
+/* line 1143, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.jobs-section select {
+  width: 190px;
+  position: relative;
+  border: 1px solid #000;
+  top: -6px;
+  left: 10px; }
+
+/* line 1149, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.jobs-section select:focus {
+  outline-color: #fff; }
+
+/* line 1152, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#whr_embed_hook h2 a {
+  color: #39474E; }
+
+/* line 1154, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#whr_embed_hook .whr-items .whr-title {
+  margin-bottom: 4px; }
+
+/* line 1156, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#whr_embed_hook .whr-items .whr-title a {
+  color: #39464E;
+  font-size: 24px; }
+
+/* line 1160, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 textarea {
+  width: 100%; }
+
+/* line 1162, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli1 input, #form4 #foli2 input {
+  width: 100%; }
+
+/* line 1164, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli110 {
+  max-width: 370px; }
+
+/* line 1166, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli110 fieldset span {
+  display: block; }
+
+/* line 1168, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli138 .col-sm-6 {
+  margin-top: 20px; }
+
+/* line 1170, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli138 div span:nth-child(1) input {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+/* line 1173, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli138 div span input {
+  margin-top: 20px;
+  display: block;
+  width: 100%; }
+
+/* line 1177, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli138 div span label {
+  font-style: italic;
+  color: #707F86; }
+
+/* line 1180, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli138 .country select {
+  margin-top: 20px; }
+
+/* line 1182, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli117 label:nth-child(1) {
+  display: block; }
+
+/* line 1184, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli150 p {
+  max-width: 500px; }
+
+/* line 1186, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli150 fieldset {
+  max-width: 280px;
+  margin-top: 20px; }
+
+/* line 1189, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 #foli150 input {
+  margin-right: 4px; }
+
+/* line 1191, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#form4 .buttons .btn {
+  margin-left: 18px; }
+
+/* line 1194, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday {
+  border-bottom: 1px solid #F2F4F5;
+  margin-bottom: 20px; }
+
+/* line 1197, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .col-xs-12 {
+  text-align: center; }
+
+/* line 1199, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .demo-day-pic {
+  display: none; }
+
+@media only screen and (min-width: 991px) {
+  /* line 1202, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .demoday .demo-day-pic {
+    display: inline-block;
+    margin-bottom: 30px; } }
+/* line 1205, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .four-col-cta {
+  background: #E3E7E9;
+  padding-bottom: 12px; }
+
+@media only screen {
+  /* line 1209, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .demoday .four-col-cta {
+    height: 510px; } }
+@media only screen and (min-width: 769px) {
+  /* line 1212, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .demoday .four-col-cta {
+    height: 400px; } }
+@media only screen and (min-width: 990px) {
+  /* line 1215, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .demoday .four-col-cta {
+    height: inherit; } }
+/* line 1217, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .row:nth-child(2) {
+  padding-bottom: 40px; }
+
+/* line 1219, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .row h1 {
+  margin-top: 0; }
+
+/* line 1221, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .row img {
+  margin-top: 18px; }
+
+/* line 1223, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .demo-day-info p {
+  margin: 0; }
+
+/* line 1225, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.demoday .demo-day-info h4 {
+  padding: 0; }
+
+@media only screen and (min-width: 991px) {
+  /* line 1228, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .demoday .demo-day-info {
+    padding-top: 32px; } }
+/* line 1231, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.four-col-cta {
+  margin-bottom: 20px;
+  border-radius: 2px; }
+
+/* line 1234, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.four-col-cta .btn {
+  margin-top: 36px;
+  min-width: 141px; }
+
+/* line 1237, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.four-col-cta .btn:hover {
+  cursor: pointer; }
+
+@media only screen and (min-width: 991px) {
+  /* line 1240, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .four-col-cta .btn {
+    position: relative;
+    right: 20px;
+    top: 10px; } }
+@media only screen {
+  /* line 1246, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .intro-course-photo {
+    display: none; } }
+@media only screen and (min-width: 767px) {
+  /* line 1249, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .intro-course-photo {
+    display: inline-block;
+    width: 70%;
+    margin: 20px 0; } }
+@media only screen and (min-width: 991px) {
+  /* line 1254, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .intro-course-photo {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 40px; } }
+/* line 1259, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.crash-course li {
+  max-width: 440px; }
+
+@media only screen and (min-width: 991px) {
+  /* line 1262, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .crash-course a {
+    top: 55px;
+    left: 60px; } }
+/* line 1265, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.crash-course .btn.gray-out {
+  background: #989898; }
+
+/* line 1267, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.crash-course .btn.gray-out:hover {
+  background: #989898; }
+
+/* line 1270, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.job-posting p {
+  margin: 0; }
+
+/* line 1272, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.job-posting hr:last-of-type {
+  display: none; }
+
+/* line 1275, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box {
+  background: #fff;
+  border-radius: 4px;
+  width: 80%;
+  padding: 0 20px 20px; }
+
+/* line 1280, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box.intro {
+  background: #fff;
+  border-radius: 4px;
+  width: 240px;
+  padding: 0 20px 20px;
+  margin: 0 auto; }
+
+/* line 1286, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box.intro input {
+  margin-top: 20px; }
+
+/* line 1288, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box.intro .btn {
+  margin-top: 10px;
+  margin-bottom: -20px; }
+
+/* line 1291, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box h3 {
+  padding-top: 10px;
+  font-style: italic; }
+
+/* line 1294, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box input {
+  display: block;
+  height: 40px;
+  width: 200px;
+  padding-left: 6px; }
+
+/* line 1299, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box .btn {
+  margin-top: 20px;
+  background: #6fbbb7; }
+
+@media only screen {
+  /* line 1303, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .mc-box .btn {
+    border: none;
+    line-height: 18px; } }
+/* line 1306, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.mc-box .mce_inline_error:nth-child(2) {
+  background: #6fbbb7 !important; }
+
+/* line 1309, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#programs .clear {
+  display: inline-block; }
+
+/* line 1311, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#programs .mc-field-group {
+  display: inline-block; }
+
+/* line 1313, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#programs .mc-field-group input {
+  display: inline-block;
+  height: 50px;
+  padding-left: 6px; }
+
+/* line 1317, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#programs .mc-btn {
+  border: none;
+  height: 50px;
+  line-height: 16px;
+  display: inline-block;
+  background: #6fbbb7; }
+
+/* line 1323, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+#programs .mce_inline_error:nth-child(2) {
+  background: #6fbbb7 !important; }
+
+/* line 1326, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  padding-top: 14px;
+  background: #e3e7e9;
+  border-radius: 4px; }
+
+/* line 1332, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box p:nth-child(1) {
+  margin-bottom: 0; }
+
+/* line 1334, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box p:nth-child(2) {
+  margin-top: 0; }
+
+/* line 1336, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box input {
+  display: block;
+  height: 40px;
+  width: 200px;
+  padding-left: 6px; }
+
+/* line 1341, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box .btn {
+  margin-top: 20px;
+  background: #6fbbb7; }
+
+/* line 1344, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.action-box .mce_inline_error:nth-child(2) {
+  background: #6fbbb7 !important; }
+
+@media only screen {
+  /* line 1347, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .action-box .btn {
+    border: none;
+    line-height: 18px; } }
+@media only screen and (min-width: 991px) {
+  /* line 1351, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .action-box .col-md-5 {
+    padding-top: 36px; }
+
+  /* line 1353, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .action-box .col-md-5 input {
+    margin: 0 auto;
+    border: none; }
+
+  /* line 1356, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .action-box .col-md-5 .btn {
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+    width: 200px;
+    line-height: 18px;
+    text-align: center; } }
+/* line 1364, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.hs-input {
+  height: 40px;
+  margin-bottom: -10px;
+  padding-left: 6px; }
+
+/* line 1369, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-nav {
+  height: 74px; }
+
+/* line 1371, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-nav .col-md-3 {
+  padding-top: 18px;
+  font-style: italic;
+  height: 74px;
+  border-left: 1px solid #a7a7a7;
+  color: #fff; }
+
+/* line 1377, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-nav .col-md-3:hover {
+  cursor: pointer;
+  text-decoration: none; }
+
+/* line 1380, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-nav .col-md-3:last-of-type {
+  border-right: 1px solid #a7a7a7; }
+
+/* line 1382, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.courses-nav .current {
+  background: #6fbbb7; }
+
+@media only screen and (max-width: 995px) {
+  /* line 1385, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .courses-nav {
+    display: none; } }
+@media only screen and (max-width: 995px) {
+  /* line 1389, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings, .tuition-types {
+    margin-top: 40px; } }
+/* line 1391, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.offerings #part-time, .offerings #self-paced, .offerings #crash-courses, .tuition-types #part-time, .tuition-types #self-paced, .tuition-types #crash-courses {
+  display: none; }
+
+/* line 1393, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.offerings .mobile-course-nav-item, .tuition-types .mobile-course-nav-item {
+  display: none;
+  position: relative; }
+
+/* line 1396, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.offerings .mobile-course-nav-item.bground, .tuition-types .mobile-course-nav-item.bground {
+  background: #6fbbb7; }
+
+@media only screen and (max-width: 995px) {
+  /* line 1399, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings .mobile-course-nav-item, .tuition-types .mobile-course-nav-item {
+    display: block;
+    height: 60px;
+    background: #838B8F;
+    margin-left: -15px;
+    margin-right: -15px;
+    color: #fff;
+    padding-left: 8%;
+    border-bottom: 1px solid #a7a7a7; }
+
+  /* line 1408, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings .mobile-course-nav-item h3, .tuition-types .mobile-course-nav-item h3 {
+    font-size: 24px;
+    font-style: italic;
+    margin: 0;
+    padding: 12px 0; }
+
+  /* line 1413, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings .mobile-course-nav-item:hover, .tuition-types .mobile-course-nav-item:hover {
+    text-decoration: none; } }
+@media only screen and (max-width: 995px) {
+  /* line 1416, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings #immersive, .offerings #part-time, .offerings #self-paced, .offerings #crash-courses, .tuition-types #immersive, .tuition-types #part-time, .tuition-types #self-paced, .tuition-types #crash-courses {
+    display: none; }
+
+  /* line 1418, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .offerings #immersive.show, .offerings #part-time.show, .offerings #self-paced.show, .offerings #crash-courses.show, .tuition-types #immersive.show, .tuition-types #part-time.show, .tuition-types #self-paced.show, .tuition-types #crash-courses.show {
+    display: block !important; } }
+@media only screen and (min-width: 768px) {
+  /* line 1422, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-types {
+    display: none; } }
+@media only screen and (min-width: 768px) {
+  /* line 1425, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-types.tuition-nav {
+    display: none; } }
+@media only screen and (min-width: 995px) {
+  /* line 1428, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-types .tuition-box {
+    display: none; } }
+@media only screen and (max-width: 775px) {
+  /* line 1432, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .sub-nav ul li {
+    float: left; } }
+/* line 1435, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.arrow {
+  position: absolute;
+  right: 8%;
+  bottom: 16px;
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid #fff; }
+
+/* line 1444, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.arrow.open {
+  bottom: 8px;
+  right: 7%;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 14px solid #fff; }
+
+@media only screen {
+  /* line 1452, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-types #immersive, .tuition-types #part-time, .tuition-types #self-paced, .tuition-types #crash-courses {
+    margin: 0 -30px; } }
+@media only screen {
+  /* line 1456, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-large {
+    display: none; } }
+@media only screen and (min-width: 768px) {
+  /* line 1459, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-large {
+    display: block; } }
+/* line 1462, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box {
+  border: 1px solid #d0d1d3;
+  background: #fff;
+  position: relative; }
+
+/* line 1466, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box h3 {
+  margin: 0;
+  display: inline-block; }
+
+/* line 1469, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box h5 {
+  color: #C8CBCD;
+  text-transform: uppercase; }
+
+/* line 1472, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box p {
+  font-size: 18px;
+  margin: 0; }
+
+/* line 1475, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box .tuition-type, .tuition-box .tuition-format, .tuition-box .tuition-curriculum, .tuition-box .tuition-career, .tuition-box .tuition-financing, .tuition-box .tuition-cost {
+  padding: 0px 10px; }
+
+@media only screen and (min-width: 768px) {
+  /* line 1478, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-type, .tuition-box .tuition-format, .tuition-box .tuition-curriculum, .tuition-box .tuition-career, .tuition-box .tuition-financing, .tuition-box .tuition-cost {
+    position: relative; }
+
+  /* line 1480, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-type hr, .tuition-box .tuition-format hr, .tuition-box .tuition-curriculum hr, .tuition-box .tuition-career hr, .tuition-box .tuition-financing hr, .tuition-box .tuition-cost hr {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px; } }
+/* line 1485, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.tuition-box .asterisk {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  left: -4px; }
+
+@media only screen {
+  /* line 1492, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box h5 {
+    margin: 14px 0 4px; }
+
+  /* line 1494, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box ul li {
+    margin-left: -26px;
+    font-size: 7px; }
+
+  /* line 1497, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box ul li:hover {
+    cursor: pointer; }
+
+  /* line 1499, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box ul li span {
+    font-size: 18px; } }
+@media only screen and (min-width: 768px) {
+  /* line 1502, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box {
+    min-height: 1000px; } }
+@media only screen {
+  /* line 1504, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-title {
+    padding: 10px 24px;
+    height: 60px;
+    background: #e3e7e9;
+    margin: 0 -15px;
+    position: relative; } }
+@media only screen and (min-width: 768px) {
+  /* line 1511, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-type {
+    height: 90px; } }
+@media only screen and (min-width: 768px) {
+  /* line 1514, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-format {
+    height: 130px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1517, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-format {
+    height: 150px; } }
+@media only screen and (min-width: 768px) {
+  /* line 1520, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-curriculum {
+    height: 200px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1523, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-curriculum {
+    height: 220px; } }
+@media only screen and (min-width: 768px) {
+  /* line 1526, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-career {
+    height: 200px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1529, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-career {
+    height: 250px; } }
+@media only screen and (min-width: 768px) {
+  /* line 1532, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-financing {
+    height: 160px; } }
+@media only screen {
+  /* line 1534, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-cost h5 {
+    margin-bottom: -10px; }
+
+  /* line 1536, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .tuition-box .tuition-cost p {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 18px; } }
+@media only screen {
+  /* line 1543, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs fieldset {
+    border: none; }
+
+  /* line 1545, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs fieldset h3 {
+    margin-bottom: 0;
+    text-align: center; }
+
+  /* line 1548, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs ul li {
+    list-style-type: none; }
+
+  /* line 1550, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs .col-md-12 {
+    position: inherit; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1553, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs form .desc {
+    font-weight: 700; }
+
+  /* line 1555, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-cbs form .btn {
+    border: none;
+    position: relative;
+    left: 0px; } }
+/* line 1560, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox {
+  position: relative;
+  text-align: center;
+  background: #e3e7e9; }
+
+/* line 1564, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox img {
+  max-width: 60px; }
+
+@media only screen {
+  /* line 1567, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox {
+    margin-bottom: 36px;
+    min-height: 420px; } }
+/* line 1570, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox .choice {
+  font-weight: 700;
+  position: relative; }
+
+/* line 1573, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox input[type=checkbox] {
+  opacity: 0.5;
+  position: relative; }
+
+@media only screen and (min-width: 992px) {
+  /* line 1577, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox {
+    padding-top: 10px;
+    margin-bottom: 0; }
+
+  /* line 1580, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-8 {
+    padding-top: 16px;
+    padding-left: 34px;
+    text-align: left; }
+
+  /* line 1584, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-12 {
+    left: 0; }
+
+  /* line 1586, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox #saveForm {
+    position: relative;
+    left: 100px; } }
+/* line 1589, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox .select-box {
+  border-radius: 4px;
+  color: #fff;
+  background: #737E84;
+  font-weight: 700;
+  font-style: italic;
+  max-width: 240px;
+  height: 40px;
+  line-height: 36px;
+  margin: 0 auto; }
+
+/* line 1599, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox .select-box:hover {
+  cursor: pointer; }
+
+/* line 1601, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox .select-box.select {
+  background: #6fbbb7; }
+
+@media only screen {
+  /* line 1604, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .select-box {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 14px; } }
+@media only screen and (min-width: 741px) and (max-width: 1199px) {
+  /* line 1610, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .select-box {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 18px; } }
+/* line 1615, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox input[type=checkbox] {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 40px; }
+
+@media only screen and (min-width: 741px) and (max-width: 1199px) {
+  /* line 1621, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox {
+    min-height: 445px;
+    border: 6px solid white;
+    margin-bottom: 2px; }
+
+  /* line 1625, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-12 {
+    position: absolute;
+    bottom: 0;
+    top: 116px; }
+
+  /* line 1629, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-12 label {
+    position: absolute;
+    bottom: 20px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1633, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox {
+    min-height: 400px;
+    border: 16px solid #fff; }
+
+  /* line 1636, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-4, .course-checkbox .col-md-8 {
+    padding-top: 24px; }
+
+  /* line 1638, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-12 {
+    position: absolute;
+    bottom: 0;
+    top: 78px; }
+
+  /* line 1642, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .col-md-8 {
+    padding-left: 16px; }
+
+  /* line 1644, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .choice {
+    bottom: 12px;
+    left: -18px; }
+
+  /* line 1647, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox img {
+    position: relative;
+    bottom: 18px;
+    width: 90%; }
+
+  /* line 1651, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox p {
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    bottom: -10px;
+    left: 18px;
+    width: 80%; }
+
+  /* line 1659, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .select-box {
+    position: absolute;
+    bottom: 24px;
+    left: 14px;
+    right: 14px; }
+
+  /* line 1664, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .select-box:hover {
+    cursor: pointer; }
+
+  /* line 1666, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox .select-box input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 40px; } }
+/* line 1671, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box img {
+  max-width: 100%;
+  position: initial;
+  margin-top: 20px; }
+
+@media only screen {
+  /* line 1676, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box img {
+    display: none; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1679, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box img {
+    display: block; } }
+/* line 1681, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-12 {
+  position: initial; }
+
+@media only screen {
+  /* line 1684, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .input-center {
+    text-align: center; } }
+@media only screen and (min-width: 992px) {
+  /* line 1687, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .input-center {
+    text-align: left; } }
+/* line 1689, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .input-center #saveForm {
+  border: none;
+  position: initial !important; }
+
+/* line 1692, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6, .course-checkbox.email-box .col-md-8 {
+  vertical-align: top;
+  text-align: left;
+  padding-left: 30px; }
+
+@media only screen {
+  /* line 1697, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6, .course-checkbox.email-box .col-md-8 {
+    padding-left: 15px; } }
+/* line 1699, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-8 h4 {
+  margin-top: 6px; }
+
+@media only screen {
+  /* line 1702, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-8 h4 {
+    margin-top: 20px; } }
+@media only screen and (min-width: 992px) {
+  /* line 1705, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-8 h4 {
+    margin-top: -5px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1708, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-8 h4 {
+    margin-top: -15px; } }
+@media only screen {
+  /* line 1711, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 h4, .course-checkbox.email-box .col-md-8 p {
+    text-align: center; } }
+@media only screen and (min-width: 992px) {
+  /* line 1714, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 h4, .course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 h4, .course-checkbox.email-box .col-md-8 p {
+    text-align: left; } }
+/* line 1716, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6 input, .course-checkbox.email-box .col-md-8 input {
+  display: inline-block;
+  height: 50px;
+  width: 280px; }
+
+/* line 1720, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 p {
+  position: initial;
+  margin-bottom: 88px; }
+
+@media only screen {
+  /* line 1724, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 p {
+    margin-bottom: 50px; } }
+@media only screen and (min-width: 992px) {
+  /* line 1727, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 p {
+    margin-bottom: 10px; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1730, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 p, .course-checkbox.email-box .col-md-8 p {
+    margin-bottom: 36px; } }
+/* line 1732, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6.padding-left, .course-checkbox.email-box .col-md-8.padding-left {
+  position: relative;
+  left: 18px; }
+
+/* line 1735, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-6 .select-box, .course-checkbox.email-box .col-md-8 .select-box {
+  position: initial;
+  display: block;
+  margin: 10px auto;
+  height: 60px;
+  text-align: center;
+  line-height: 52px;
+  font-size: 30px;
+  background: #39474E;
+  width: 280px;
+  max-width: 300px; }
+
+@media only screen and (min-width: 992px) {
+  /* line 1747, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.email-box .col-md-6 .select-box, .course-checkbox.email-box .col-md-8 .select-box {
+    margin-left: 0; } }
+/* line 1749, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.email-box .col-md-4 {
+  position: initial; }
+
+/* line 1751, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.format-box {
+  min-height: 320px;
+  display: inline-block;
+  max-width: 420px;
+  vertical-align: top; }
+
+@media only screen {
+  /* line 1757, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.format-box {
+    width: 100%; } }
+@media only screen and (min-width: 760px) {
+  /* line 1760, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.format-box {
+    width: 49%; } }
+@media only screen and (min-width: 1200px) {
+  /* line 1763, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.format-box {
+    height: 380px; }
+
+  /* line 1765, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .course-checkbox.format-box p {
+    text-align: center;
+    width: 90%; } }
+/* line 1768, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.format-box .col-md-12 {
+  position: initial;
+  padding-top: 20px; }
+
+/* line 1771, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.format-box .col-md-12 label {
+  font-size: 30px;
+  position: initial; }
+
+/* line 1774, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+.course-checkbox.format-box .col-md-12 p {
+  margin-top: -20px;
+  font-size: 16px; }
+
+@media only screen {
+  /* line 1779, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .landing-logo-container {
+    position: relative;
+    top: -280px; } }
+@media only screen {
+  /* line 1783, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .landing-logo-container .landing-logo {
+    width: 120px; } }
+@media only screen and (min-width: 991px) {
+  /* line 1786, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .landing-logo-container .landing-logo {
+    width: 120px; } }
+@media only screen and (min-width: 491px) {
+  /* line 1789, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .landing-logo-container {
+    top: -370px; } }
+@media only screen and (min-width: 991px) {
+  /* line 1792, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/tiystyle.scss */
+  .landing-logo-container {
+    top: -350px; } }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlcyI6WyJhcHAvc3R5bGVzL21haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFSTtFQUZKLFFBQVE7SUFHRixPQUFPO0lBQ1AsT0FBTztJQUNQLFFBQVE7O0FBS2Q7RUFDRSxTQUFTO0VBQ1Q7SUFGRjtNQUdJLFNBQVM7RUFDYixZQUFZO0lBRVIsUUFBUTtJQUNSLGFBQWE7SUFDYixnQkFBZ0I7SUFDaEIsYUFBYTtJQUNiLFVBQVU7SUFDVixTQUFTO0lBQWIsWUFBWSxhQUFhO01BRW5CLE9BQU87TUFBYixZQUFZLGFBQWEsQ0FBQztRQUVsQixpQkFBaUI7SUFFekIsWUFBWSxhQUFhO01BRW5CLFlBQVk7TUFDWixPQUFPO01BQ1AsT0FBTztNQUNQLFFBQVE7TUFDUixZQUFZO0lBQ2xCLFlBQVksYUFBYTtNQUVuQixZQUFZO01BQ1osUUFBUTtNQUNSLFlBQVk7TUFBbEIsWUFBWSxhQUFhLGdCQUFnQjtRQUVqQyxRQUFRO01BQ2hCLFlBQVksYUFBYSxpQkFBaUI7UUFFbEMsT0FBTztRQUNQLFVBQVU7UUFDVixLQUFLO1FBQ0wsTUFBTTtFQUdkLFlBQVk7SUFFUixPQUFPO0VBQ1gsWUFBWTtJQUVSLFNBQVM7SUFDVCxZQUFZO0lBQWhCLFlBQVksYUFBYTtNQUVuQixPQUFPO01BQ1AsZUFBZTtNQUFyQixZQUFZLGFBQWEsR0FBRztRQUVwQixTQUFTO1FBQ1QsT0FBTztRQUNQLGVBQWU7UUFDZixTQUFTO1FBQ1QsUUFBUTtRQUFoQixZQUFZLGFBQWEsR0FBRyxHQUFHLENBQUM7VUFFdEIsZUFBZTtFQUl6QixZQUFZO0lBRVIsWUFBWTtJQUNaLFNBQVM7SUFDYixZQUFZLGVBQWUsR0FBRztNQUV0QixTQUFTO01BQ1QsU0FBUztNQUNULE9BQU87TUFDUCxlQUFlO01BQ2YsU0FBUztNQUNULFFBQVE7TUFBaEIsWUFBWSxlQUFlLEdBQUcsRUFBRTtRQUd0QixPQUFPOztBQVFmO0VBREY7SUFFSSxTQUFTOztBQUliO0VBQ0UsU0FBUzs7QUFJWDtF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SUFFSDtNQUZOLHdCQUF3QjtRQUdoQixPQUFPO0lBRVQ7TUFMTix3QkFBd0I7UUFNaEIsT0FBTztJQUdYO01BYko7UUFjTSxLQUFLO0lBRVA7TUFoQko7UUFpQk0sS0FBSyIsInNvdXJjZXNDb250ZW50IjpbIi5oZWFkZXIge1xuICAubG9nbyB7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NzVweCkge1xuICAgICAgZmxvYXQ6IG5vbmU7XG4gICAgICB3aWR0aDogMTYwcHg7XG4gICAgICBtYXJnaW46IDAgYXV0bztcbiAgICB9XG4gIH1cbn1cblxuLm1vYmlsZS1uYXYge1xuICBkaXNwbGF5OiBub25lO1xuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc3NXB4KSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gIH1cbiAgLm1vYmlsZS1jdGFzIHtcbiAgICBoZWlnaHQ6IDYwcHg7XG4gICAgbGluZS1oZWlnaHQ6IDU2cHg7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBmb250LXdlaWdodDogODAwO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB6LWluZGV4OiAxO1xuICAgIGEge1xuICAgICAgY29sb3I6ICNlZWYxZjY7XG4gICAgICAmOmhvdmVyIHtcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgfVxuICAgIH1cbiAgICAubW9iaWxlLW5hdi1hcHBseSB7XG4gICAgICBiYWNrZ3JvdW5kOiAjNmZiYmI3O1xuICAgICAgd2lkdGg6IDUwJTtcbiAgICAgIGZsb2F0OiBsZWZ0O1xuICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIH1cbiAgICAubW9iaWxlLW5hdi1tZW51IHtcbiAgICAgIGJhY2tncm91bmQ6ICNBNkE2QTY7XG4gICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAmOmhvdmVyIHtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgfVxuICAgICAgaW1nIHtcbiAgICAgICAgd2lkdGg6IDE4cHg7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgdG9wOiAzcHg7XG4gICAgICAgIGxlZnQ6IDZweDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgLmxvZ28ge1xuICAgIHdpZHRoOiAzMCU7XG4gIH1cbiAgLnByaW1hcnktbmF2IHtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGJhY2tncm91bmQ6ICM3MjdkODQ7XG4gICAgdWwge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICAgICAgbGkge1xuICAgICAgICBwYWRkaW5nOiAxOHB4IDA7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzhkOTY5YztcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYTpob3ZlciB7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxuICAuc2Vjb25kYXJ5LW5hdiB7XG4gICAgYmFja2dyb3VuZDogIzcyN2Q4NDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIHVsIHtcbiAgICAgIGxpIHtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIHBhZGRpbmc6IDhweCAwO1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICM4ZDk2OWM7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIC8vIG1hcmdpbjogMTBweCAwO1xuICAgICAgICAmOmxhc3Qtb2YtdHlwZSB7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxuLm5hdiB7XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzc1cHgpIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG59XG5cbi5yZXNwb25zaXZlLW5hdntcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuXG4vLyBTdHlsZXMgZm9yIHd1LWZvbyBjb250YWN0IGZvcm1cbi5mb2N1c2VkIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjdjMDtcbn1cbi5oaWRlIHtcbiAgZGlzcGxheTpub25lO1xufVxuLm5vdHJhbnNsYXRlLCB7XG4gIHBhZGRpbmc6IDEwcHggMjBweDtcbn1cbiN0aXRsZTMge1xuICBkaXNwbGF5OmJsb2NrXG59XG5cbi8vIFRoZSBmb2xsb3dpbmcgYXJlIHF1aWNrIHN0eWxlIGVkaXRzIGZvciBhIG5ldyB0ZW1wb3JhcnkgaG9tZXBhZ2UuIERlcGVuZGluZyBvbiB3aGF0IHN0YXlzIG9yIGdvZXMgaW4gdGhlIGxvbmdlciB0ZXJtIGRlc2lnbiwgdGhpcyB3aWxsIGdldCByb2xsZWQgaW50byBHaG9zdC1TaGllbGQuXG5cbi5uZXctZGFyay1ncmF5LWJnIHtcbiAgYmFja2dyb3VuZDogIzM5NDc0RTtcbn1cblxuLmJyYW5kLXRleHQge1xuICBjb2xvcjogIzM5NDc0RTtcbn1cblxuLnN0ZC1saW5rLXRleHQge1xuICBjb2xvcjogIzZGQkJCNztcbn1cblxuLm5ldC1iZywgLm5ldC1idG4ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjOWQ3MGIwO1xuICBjb2xvcjogI2ZmZjtcbn1cblxuLm5ldC10ZXh0IHtcbiAgY29sb3I6ICM5ZDcwYjA7XG59XG4vLyBxdWljayBmaXggZm9yIG5ldyBob21lcGFnZSBidXR0b25zLiB3aWxsIHJvbGwgYWxsIG9mIHRoZXNlIGludG8gYSBtaXhpbiB3aGVuIHJlZmFjdG9yaW5nIGdob3N0LXNoaWVsZFxuQG1peGluIGZvbS1idG4oJGNvbG9yLCAkaG92ZXItY29sb3IpIHtcbiAgYmFja2dyb3VuZDogJGNvbG9yO1xuICBwYWRkaW5nOiA0cHggMjBweCA4cHg7XG4gIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xuICBmb250LXNpemU6IDI0cHg7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDIwJTtcbiAgbGVmdDogMjAlO1xuICBib3R0b206IDUwcHg7XG4gIG1pbi13aWR0aDogMjIwcHg7XG4gICY6aG92ZXIge1xuICAgIGJhY2tncm91bmQ6ICRob3Zlci1jb2xvcjtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cbn1cblxuLm5hdiB7XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpe1xuICAgIHBhZGRpbmctdG9wOiAwICFpbXBvcnRhbnQ7XG4gIH1cbn1cbi5wcmltYXJ5LW5hdiB7XG4gIHdpZHRoOiAzMCUgIWltcG9ydGFudDtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50O1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpe1xuICAgIHdpZHRoOiA1NSUgIWltcG9ydGFudDtcbiAgICBtYXJnaW4tdG9wOiAyOHB4ICFpbXBvcnRhbnQ7XG4gIH1cbiAgdWwge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgfVxuICB9XG59XG5cbi5zZWNvbmRhcnktbmF2IHtcbiAgd2lkdGg6IDcwJSAhaW1wb3J0YW50O1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7XG4gICAgLmFwcGx5LW5vdyB7XG4gICAgICBtYXJnaW4tdG9wOiAxNHB4O1xuICAgIH1cbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MHB4KXtcbiAgICB3aWR0aDogNDUlICFpbXBvcnRhbnQ7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHRvcDogOHB4ICFpbXBvcnRhbnQ7XG4gICAgYSB7XG4gICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgICB9XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NzBweCkgYW5kIChtYXgtd2lkdGg6IDk5MHB4KXtcbiAgICBib3R0b206IDE2cHg7XG4gICAgYSB7XG4gICAgICBmb250LXNpemU6IDE0cHggIWltcG9ydGFudDtcbiAgICB9XG4gIH1cbiAgdWwge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDAwcHgpIHtcbiAgICAgIG1hcmdpbi1sZWZ0OiAwICFpbXBvcnRhbnQ7XG4gICAgfVxuICB9XG4gIC5hcHBseS1ub3cge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzcwcHgpIGFuZCAobWF4LXdpZHRoOiA5OTBweCl7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICByaWdodDogMDtcbiAgICAgIHRvcDogLTQwcHg7XG4gICAgfVxuICB9XG59XG5cbi5mb290ZXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGhlaWdodDogaW5oZXJpdDtcbiAgbWFyZ2luLXRvcDogMDtcbiAgLmZvb3Rlci1uYXYge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgcGFkZGluZy10b3A6IDA7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNDAxcHgpe1xuXG4gICAgfVxuICAgIHVsIHtcbiAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gIHtcbiAgICAgICAgcGFkZGluZzogNHB4IDA7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQwMXB4KXtcbiAgICAgICAgcGFkZGluZzogMTBweCAwO1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2MDBweCl7XG4gICAgICAgIHdpZHRoOiA3MCU7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMjVweCl7XG4gICAgICAgIHBhZGRpbmctdG9wOiAxMHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMjAwcHgpe1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgcGFkZGluZy10b3A6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5jb3B5cmlnaHQge1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgcGFkZGluZy1sZWZ0OiAxMHB4O1xuICAgIHBhZGRpbmctdG9wOiAxMHB4O1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICB3aWR0aDogODAlO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQwMXB4KXtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbiAgfVxuICAuc29jaWFsLW5hdiB7XG4gICAgdWwge1xuICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgIG1hcmdpbjogNHB4IDIwcHggMHB4IDVweDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgLnRpeS1sb2dvIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHJpZ2h0OiAxMHB4O1xuICAgICAgYm90dG9tOiA0cHg7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjQwcHgpe1xuICAgICAgdG9wOiAzNnB4O1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgICAgdG9wOiAzNHB4O1xuICAgIH1cbiAgICBpbWcge1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgaGVpZ2h0OiA1OHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2NDBweCkge1xuICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMjAwcHgpIHtcbiAgICAgICAgaGVpZ2h0OiA4MHB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG4kdHVycXVvaXNlLW5ldzogIzZmYmJiNztcbiYuYXBwbHktbm93IHtcbiAgYmFja2dyb3VuZDogJHR1cnF1b2lzZS1uZXc7XG4gIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XG4gIHdpZHRoOiAxMjVweDtcbiAgZm9udC1zaXplOiAxNHB4O1xuICAmOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kOiAjNUI5RDk5O1xuICB9XG59XG5cbiYud2F0Y2gtdmlkZW8ge1xuICBiYWNrZ3JvdW5kOiAkdHVycXVvaXNlLW5ldztcbiAgY29sb3I6ICNmZmYgIWltcG9ydGFudDtcbiAgcGFkZGluZzogMCAyMHB4O1xuICBsaW5lLWhlaWdodDogNDBweDtcbiAgbWFyZ2luLXRvcDogMTBweDtcbiAgbWluLXdpZHRoOiAyMjBweDtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0MDBweCl7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICB9XG4gICY6aG92ZXIge1xuICAgIGJhY2tncm91bmQ6ICM1QjlEOTk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG4gIGltZyB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIHRvcDogNnB4O1xuICB9XG4gIHNwYW4ge1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gICAgbGluZS1oZWlnaHQ6IDU0cHg7XG4gIH1cbn1cblxuXG4ucmVhZC1zdG9yaWVzIHtcbiAgYmFja2dyb3VuZDogJHR1cnF1b2lzZS1uZXc7XG4gIGNvbG9yOiAjZmZmICFpbXBvcnRhbnQ7XG4gIHBhZGRpbmc6IDZweCAyMHB4IDhweDtcbiAgbGluZS1oZWlnaHQ6IDQwcHg7XG4gIG1pbi13aWR0aDogMzIwcHg7XG4gICY6aG92ZXIge1xuICAgIGJhY2tncm91bmQ6ICM1QjlEOTk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDAwcHgpe1xuICAgIG1pbi13aWR0aDogODBweDtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgcGFkZGluZzogNHB4IDZweCA2cHg7XG4gIH1cbn1cblxuLmRpc2NvdmVyLWNvdXJzZXMge1xuICBiYWNrZ3JvdW5kOiAkdHVycXVvaXNlLW5ldztcbiAgY29sb3I6ICNmZmYgIWltcG9ydGFudDtcbiAgcGFkZGluZzogNnB4IDE2cHggOHB4O1xuICBsaW5lLWhlaWdodDogNDBweDtcbiAgJjpob3ZlciB7XG4gICAgYmFja2dyb3VuZDogIzVCOUQ5OTtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gIH1cbn1cbi8vIGVuZCB0ZW1wIGZpeFxuXG4ubW9iaWxlLWhlcm8tY3RhIHtcbiAgY29sb3I6ICNlZWYxZjY7XG4gIGgzIHtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgbWFyZ2luOiAwO1xuICB9XG4gIC5idG4ge1xuICAgIG1hcmdpbi1ib3R0b206IDMwcHg7IFxuICAgIGhlaWdodDogNTBweDtcbiAgICBpbWcge1xuICAgICAgd2lkdGg6IDM2cHg7XG4gICAgfVxuICAgIHNwYW4ge1xuICAgICAgbGluZS1oZWlnaHQ6IDQ4cHg7XG4gICAgfVxuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzc1cHgpe1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbn1cblxuLy8gcXVpY2sgZml4ZXMgZm9yIHRlbXBvcmFyeSBob21lcGFnZVxuLmhlcm8tYmFubmVyLWhvbWUge1xuICBiYWNrZ3JvdW5kOiB1cmwoJy9pbWFnZXMvaG9tZS9ob21lLWhlcm8uanBnJykgbm8tcmVwZWF0IGNlbnRlciBjZW50ZXI7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIG1hcmdpbi10b3A6IC0yMXB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgaGVpZ2h0OiAzMDBweDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA2OCU7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2MDBweCl7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMDtcbiAgICBoZWlnaHQ6IDQ1MHB4O1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KSB7XG4gICAgaGVpZ2h0OiA2MDBweDtcbiAgfVxuICAuY3RhLXRleHQge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzc1cHgpIHtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG4gIC5jbG9zZS12aWRlbyB7XG4gICAgdG9wOiAyMHB4O1xuICAgIG9wYWNpdHk6IDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHotaW5kZXg6IDIwO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB0cmFuc2l0aW9uOiBhbGwgM3MgbGluZWFyO1xuICAgIHRyYW5zaXRpb24tZGVsYXk6IDNzO1xuICAgICYuYWN0aXZlIHtcbiAgICAgIGRpc3BsYXk6IGJsb2NrICFpbXBvcnRhbnQ7XG4gICAgICBvcGFjaXR5OiAxICFpbXBvcnRhbnQ7XG4gICAgICB0cmFuc2l0aW9uOiBhbGwgM3MgbGluZWFyO1xuICAgICAgdHJhbnNpdGlvbi1kZWxheTogM3M7XG4gICAgfVxuICAgICYuaW5hY3RpdmUge1xuICAgICAgZGlzcGxheTogbm9uZSAhaW1wb3J0YW50O1xuICAgICAgb3BhY2l0eTogMCAhaW1wb3J0YW50O1xuICAgICAgdHJhbnNpdGlvbjogYWxsIDNzIGxpbmVhcjtcbiAgICAgIHRyYW5zaXRpb24tZGVsYXk6IDNzO1xuICAgIH1cbiAgfVxuICAudmltZW8ge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDA7XG4gICAgcmlnaHQ6IDA7XG4gICAgYm90dG9tOiAwO1xuICAgIGxlZnQ6IDA7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgICB6LWluZGV4OiAxMDtcbiAgICAmLmFjdGl2ZSB7XG4gICAgICBkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50O1xuICAgICAgb3BhY2l0eTogMSAhaW1wb3J0YW50O1xuICAgIH1cbiAgICAmLmluYWN0aXZlIHtcbiAgICAgIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDtcbiAgICAgIG9wYWNpdHk6IDAgIWltcG9ydGFudDtcbiAgICB9XG4gIH1cbiAgLmNvbnRhaW5lciB7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHBhZGRpbmctdG9wOiAxMTBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMDI1cHgpe1xuICAgICAgcGFkZGluZy10b3A6IDE1NnB4O1xuICAgIH1cbiAgICBoMSwgLnR5cGVkLWgzIHtcbiAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICB9XG4gICAgaDF7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgICBmb250LXNpemU6IDMzcHg7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IC02cHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KXtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogLTIwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMjVweCl7XG4gICAgICAgIGZvbnQtc2l6ZTogNjBweDtcbiAgICAgIH1cbiAgICB9XG4gICAgLm1vYmlsZS1oMyB7XG4gICAgICBjb2xvcjogI2ZmZjtcbiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KXtcbiAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIH1cbiAgICB9XG4gICAgLnR5cGVkLWgzIHtcbiAgICAgIG1hcmdpbi10b3A6IC0xMHB4O1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBkaXNwbGF5OiBub25lO1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA1MDBweCl7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KXtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICBmb250LXNpemU6IDI0cHg7XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi50eXBlZC1jdXJzb3J7XG4gIG9wYWNpdHk6IDE7XG4gIC13ZWJraXQtYW5pbWF0aW9uOiBibGluayAwLjlzIGluZmluaXRlO1xuICAtbW96LWFuaW1hdGlvbjogYmxpbmsgMC45cyBpbmZpbml0ZTtcbiAgYW5pbWF0aW9uOiBibGluayAwLjlzIGluZmluaXRlO1xuICBjb2xvcjogI2ZmZjtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KXtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgZm9udC1zaXplOiAzNHB4O1xuICB9XG59XG5Aa2V5ZnJhbWVzIGJsaW5re1xuICAgIDAlIHsgb3BhY2l0eToxOyB9XG4gICAgNTAlIHsgb3BhY2l0eTowOyB9XG4gICAgMTAwJSB7IG9wYWNpdHk6MTsgfVxufVxuQC13ZWJraXQta2V5ZnJhbWVzIGJsaW5re1xuICAgIDAlIHsgb3BhY2l0eToxOyB9XG4gICAgNTAlIHsgb3BhY2l0eTowOyB9XG4gICAgMTAwJSB7IG9wYWNpdHk6MTsgfVxufVxuQC1tb3ota2V5ZnJhbWVzIGJsaW5re1xuICAgIDAlIHsgb3BhY2l0eToxOyB9XG4gICAgNTAlIHsgb3BhY2l0eTowOyB9XG4gICAgMTAwJSB7IG9wYWNpdHk6MTsgfVxufVxuXG4vLyBzdHVkZW50IHN0b3JpZXMgaG90IGZpeGVzIG9uIHRlbXAgaG9tZXBhZ2Vcbi5zdG9yaWVzLXNlY3Rpb24ge1xuICAvLyBwYWRkaW5nOiA3MHB4IDEwMHB4O1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIHBhZGRpbmc6IDE2cHggMTZweCA2MHB4IDM2cHg7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjdweCl7XG4gICAgcGFkZGluZzogMzBweCA5MHB4IDUwcHggOTBweDtcbiAgfVxuICBoMSB7XG4gICAgY29sb3I6ICM3MjdkODQ7XG4gICAgbGluZS1oZWlnaHQ6IDU2cHg7XG4gICAgdGV4dC1pbmRlbnQ6IC0zMHB4O1xuICAgIHRleHQtZGVjb3JhdGlvbjogaXRhbGljO1xuICAgIHF1b3RlczogXCLigJxcIiBcIuKAnVwiIFwi4oCYXCIgXCLigJlcIjtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBmb250LXNpemU6IDI0cHg7XG4gICAgICBsaW5lLWhlaWdodDogMzJweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA0MDBweCl7XG4gICAgICBmb250LXNpemU6IDMwcHg7XG4gICAgICBsaW5lLWhlaWdodDogaW5pdGlhbDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTFweCl7XG4gICAgICB3aWR0aDogMzcwcHg7XG4gICAgfVxuICAgICY6YmVmb3JlIHtcbiAgICAgIGNvbnRlbnQ6IG9wZW4tcXVvdGU7XG4gICAgfVxuICAgICY6YWZ0ZXIge1xuICAgICAgY29udGVudDogY2xvc2UtcXVvdGU7XG4gICAgfVxuICAgICY6Omxhc3QtbGluZSB7XG4gICAgICB3aWR0aDogNDIwcHg7XG4gICAgfVxuICB9XG4gIHAge1xuICAgIGNvbG9yOiAjNzI3ZDg0O1xuICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgd2lkdGg6IDI2MHB4O1xuICAgICAgJjpudGgtY2hpbGQoMSl7XG4gICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICAgICAgdGV4dC1pbmRlbnQ6IDBweDtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY3cHgpIHtcbiAgICAgICAgICBtYXJnaW4tdG9wOiA0MHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi5uZXdzLWljb25zIHtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NzVweCkge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbn1cblxuLnN0dWRlbnQtc2VjdGlvbiB7XG4gIHBhZGRpbmctYm90dG9tOiA1MHB4O1xuICBpbWcge1xuICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gIH1cbiAgLnN0dWRlbnQtY29weSB7XG4gICAgbWFyZ2luLXRvcDogLTMycHg7XG4gICAgcCB7XG4gICAgICBtYXJnaW4tdG9wOiAwO1xuICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgJjpudGgtY2hpbGQoMm4rMSl7XG4gICAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgIH1cbiAgICB9XG4gICAgLmZlZS1uYW1lLCAucHl0aG9uLW5hbWUsXG4gICAgLmRlc2lnbi1uYW1lLCAucmFpbHMtbmFtZSwgLm1vYmlsZS1uYW1lIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgfVxuICAgIC5mZWUtbmFtZSwgLmZlZS1saW5rIHtcbiAgICAgIGNvbG9yOiAjY2U4MzJkO1xuICAgIH1cbiAgICAucHl0aG9uLW5hbWUsIC5weXRob24tbGluayB7XG4gICAgICBjb2xvcjogIzViYmQ3YjtcbiAgICB9XG4gICAgLmRlc2lnbi1uYW1lLCAuZGVzaWduLWxpbmsge1xuICAgICAgY29sb3I6ICMzNWEwYWQ7XG4gICAgfVxuICAgIC5yYWlscy1uYW1lLCAucmFpbHMtbGluayB7XG4gICAgICBjb2xvcjogI2I4NTg0YztcbiAgICB9XG4gICAgLm1vYmlsZS1uYW1lLCAubW9iaWxlLWxpbmsge1xuICAgICAgY29sb3I6ICAjZDNiNDJiO1xuICAgIH1cbiAgICAubmV0LW5hbWUsIC5uZXQtbGluayB7XG4gICAgICBjb2xvcjogICM5YzZmYjA7XG4gICAgfVxuICB9XG59XG5cbi5jb2RlLXNjaG9vbC1zZWN0aW9uIHtcbiAgcGFkZGluZy10b3A6IDQwcHg7XG4gIGgyIHtcbiAgICBjb2xvcjogIzcyN2Q4NDtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgZm9udC1zaXplOiAyN3B4O1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KXtcbiAgICAgIGZvbnQtc2l6ZTogMzRweDtcbiAgICB9XG4gIH1cbiAgcCB7XG4gICAgd2lkdGg6IDgwJTtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQwMHB4KXtcbiAgICAgIHdpZHRoOiA5NiU7XG4gICAgfVxuICB9XG4gIC5idG4ge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gIH1cbiAgaW1nIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBtYXgtd2lkdGg6IDU1MHB4O1xuICB9XG4gIC5jYXB0aW9uIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAxMnB4O1xuICB9XG59XG5cbi5jb3Vyc2VzIHtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICBwYWRkaW5nOiAwO1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzYwcHgpe1xuICAgIHBhZGRpbmc6IDYwcHggMDtcbiAgfVxufVxuXG5cbi5jb3Vyc2VzLXNlY3Rpb24ge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIC5jb3Vyc2UtYm94IHtcbiAgICBmbG9hdDogbGVmdDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZDBkMWQzO1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIG1pbi1oZWlnaHQ6IDQ3NXB4O1xuICAgIHBhZGRpbmc6IDUwcHggMjBweDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDY0MHB4KXtcbiAgICAgIHdpZHRoOiA1MCU7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KXtcbiAgICAgIHdpZHRoOiAzMy4zMyU7XG4gICAgfVxuICAgICY6bnRoLWNoaWxkKDJuKzEpe1xuICAgICAgLy8gYm9yZGVyLWxlZnQ6IG5vbmU7XG4gICAgfVxuICAgIHAge1xuICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgbWFyZ2luLXRvcDogMDtcbiAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICAgIHBhZGRpbmc6IDAgMjBweDtcbiAgICB9XG4gICAgaDIge1xuICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xuICAgICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XG4gICAgICBjb2xvcjogIzcyN0Q4NDtcbiAgICAgIGxpbmUtaGVpZ2h0OiA0MnB4O1xuICAgIH1cbiAgICAuYXBwbHktbm93IHtcbiAgICAgIGJhY2tncm91bmQ6ICR0dXJxdW9pc2UtbmV3O1xuICAgICAgZm9udC1zaXplOiAyNHB4O1xuICAgICAgcGFkZGluZzogMHB4IDIwcHggNHB4O1xuICAgICAgd2lkdGg6IDIzNHB4O1xuICAgICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XG4gICAgICAmOmhvdmVye1xuICAgICAgICBiYWNrZ3JvdW5kOiAjNUI5RDk5O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5hcHBseS1ib3gge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBwYWRkaW5nOiAyMHB4IDIwcHggMjBweCAzNHB4O1xuICAgIGJhY2tncm91bmQ6ICNGRkY7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNEMEQxRDM7XG4gICAgbWFyZ2luOiAzMHB4IGF1dG87XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHdpZHRoOiA5NiU7XG4gICAgICBtaW4taGVpZ2h0OiAzMDBweDtcbiAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA0NTBweCl7XG4gICAgICBtaW4taGVpZ2h0OiAxNjBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTBweCl7XG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgaGVpZ2h0OiAxNjBweDtcbiAgICAgIHdpZHRoOiA3NSU7XG4gICAgICBtYXJnaW46IDUwcHggYXV0byAwcHg7XG4gICAgfVxuICAgIGgyIHtcbiAgICAgIG1hcmdpbjogMDtcbiAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xuICAgICAgY29sb3I6ICM3MjdEODQ7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiA0MHB4O1xuICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2NDBweCl7XG4gICAgICAgIG1hcmdpbi10b3A6IDEwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MHB4KXtcbiAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgfVxuICAgIH1cbiAgICAuYWJvdXQtdHVpdGlvbiB7XG4gICAgICBjb2xvcjogIzZmYmJiNztcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRvcDogOHB4O1xuICAgICAgZm9udC1zaXplOiAxOHB4O1xuICAgICAgJjpob3ZlciB7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTBweCl7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgfVxuICAgIH1cbiAgICAuYnRuLWhvbGRlciB7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDY0MHB4KXtcbiAgICAgICAgbWFyZ2luLXRvcDogNjBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpe1xuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgIHJpZ2h0OiAzNnB4O1xuICAgICAgICB0b3A6IC0xNHB4O1xuICAgICAgfVxuICAgICAgLmJ0biB7XG4gICAgICAgIGJhY2tncm91bmQ6ICM2RkJCQjc7XG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6ICM1QjlEOTk7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICAgICYuY3Jhc2gtY291cnNlLWJ0biB7XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDM1cHgpe1xuICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICBib3R0b206IDE4cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgLmZlZS1oZWFkZXIge1xuICAgIGNvbG9yOiAjY2U4MzJkO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgbWFyZ2luOiAzMHB4IDAgMDtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gIH1cbiAgLmRlc2lnbi1oZWFkZXIge1xuICAgIGNvbG9yOiAjMzVhMGFkO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgbWFyZ2luOiAzMHB4IDAgMDtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gIH1cbiAgLnJhaWxzLWhlYWRlciB7XG4gICAgY29sb3I6ICNiODU4NGM7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBtYXJnaW46IDMwcHggMCAwO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICAubW9iaWxlLWhlYWRlciB7XG4gICAgY29sb3I6ICNkNWI4MTA7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBtYXJnaW46IDMwcHggMCAwO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICAucHl0aG9uLWhlYWRlciB7XG4gICAgY29sb3I6ICMwZGM2N2Q7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBtYXJnaW46IDMwcHggMCAwO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICAubmV0LWhlYWRlciB7XG4gICAgY29sb3I6ICM5QzZGQjA7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBtYXJnaW46IDMwcHggMCAwO1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICAuZmVlLWVuZyB7XG4gICAgLmJ0biB7XG4gICAgICBAaW5jbHVkZSBmb20tYnRuKCNkYjgyMGMsICNDMDcyMDkpO1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0MDBweCl7XG4gICAgICAgIHJpZ2h0OiAxNiU7XG4gICAgICAgIGxlZnQ6IDE1JTtcbiAgICAgICAgYm90dG9tOiA0MHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMDI1cHgpIGFuZCAobWF4LXdpZHRoOiAxMTk5cHgpe1xuICAgICAgICBsZWZ0OiAxNiU7XG4gICAgICAgIGJvdHRvbTogMjdweDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgLndlYi1kZXNpZ24ge1xuICAgIC5idG4ge1xuICAgICAgQGluY2x1ZGUgZm9tLWJ0bigjMDBhNWIxLCAjMDM4Qjk1KTtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDAwcHgpe1xuICAgICAgICByaWdodDogMTYlO1xuICAgICAgICBsZWZ0OiAxNSU7XG4gICAgICAgIGJvdHRvbTogNDBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KSBhbmQgKG1heC13aWR0aDogMTE5OXB4KXtcbiAgICAgICAgbGVmdDogMTYlO1xuICAgICAgICBib3R0b206IDI3cHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5yYWlscy1lbmcge1xuICAgIC5idG4ge1xuICAgICAgQGluY2x1ZGUgZm9tLWJ0bigjYzk0ZTQzLCAjQTczRTM0KTtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDAwcHgpe1xuICAgICAgICByaWdodDogMTYlO1xuICAgICAgICBsZWZ0OiAxNSU7XG4gICAgICAgIGJvdHRvbTogNDBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KSBhbmQgKG1heC13aWR0aDogMTE5OXB4KXtcbiAgICAgICAgbGVmdDogMTYlO1xuICAgICAgICBib3R0b206IDI3cHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5tb2JpbGUtZW5nIHtcbiAgICAuYnRuIHtcbiAgICAgIEBpbmNsdWRlIGZvbS1idG4oI2Q1YjgxMCwgI0I0OUIwQyk7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQwMHB4KXtcbiAgICAgICAgcmlnaHQ6IDE2JTtcbiAgICAgICAgbGVmdDogMTUlO1xuICAgICAgICBib3R0b206IDQwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMjVweCkgYW5kIChtYXgtd2lkdGg6IDExOTlweCl7XG4gICAgICAgIGxlZnQ6IDE2JTtcbiAgICAgICAgYm90dG9tOiAyN3B4O1xuICAgICAgfVxuICAgIH1cbiAgfVxuICAucHl0aG9uLWVuZyB7XG4gICAgLmJ0biB7XG4gICAgICBAaW5jbHVkZSBmb20tYnRuKCMwZGM2N2QsICMwNkEyNjQpO1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0MDBweCl7XG4gICAgICAgIHJpZ2h0OiAxNiU7XG4gICAgICAgIGxlZnQ6IDE1JTtcbiAgICAgICAgYm90dG9tOiA0MHB4O1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMDI1cHgpIGFuZCAobWF4LXdpZHRoOiAxMTk5cHgpe1xuICAgICAgICBsZWZ0OiAxNiU7XG4gICAgICAgIGJvdHRvbTogMjdweDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgLm5ldC1lbmcge1xuICAgIC5idG4ge1xuICAgICAgQGluY2x1ZGUgZm9tLWJ0bigjOUM2RkIwLCAjNzUzRjhEKTtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDAwcHgpe1xuICAgICAgICByaWdodDogMTYlO1xuICAgICAgICBsZWZ0OiAxNSU7XG4gICAgICAgIGJvdHRvbTogNDBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KSBhbmQgKG1heC13aWR0aDogMTE5OXB4KXtcbiAgICAgICAgbGVmdDogMTYlO1xuICAgICAgICBib3R0b206IDI3cHg7XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi5jb250YWN0LWNvbnRhaW5lciwgLmNvbnRhY3QtZmFxLWNvbnRhaW5lciB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNkMGQxZDM7XG4gIHdpZHRoOiA4MCU7XG4gIG1hcmdpbjogNjBweCBhdXRvO1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIHdpZHRoOiA5NCU7XG4gIH1cbiAgLnF1ZXN0aW9ucyB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBiYWNrZ3JvdW5kOiAjZWVlO1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gICAgbWluLWhlaWdodDogNjAwcHg7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMjVweCl7XG4gICAgICB3aWR0aDogNDkuOCU7XG4gICAgfVxuICAgIC50b3AtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiA5NHB4IDQwcHg7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAuY2hhdC1jb250YWluZXIge1xuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgIHRvcDogMDtcbiAgICAgICAgcmlnaHQ6IDA7XG4gICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgbGVmdDogMDtcbiAgICAgICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIH1cbiAgICB9XG4gICAgLmJvdHRvbS1jb250ZW50IHtcbiAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgIGhlaWdodDogMTMwcHg7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICAgIGJhY2tncm91bmQ6IHdoaXRlO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdG9wOiAyOHB4O1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2MDBweCl7XG4gICAgICAgIHRvcDogNThweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpe1xuICAgICAgICB0b3A6IDU0cHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwMDBweCl7XG4gICAgICAgIHRvcDogODJweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTAyNXB4KXtcbiAgICAgICAgdG9wOiA2cHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCl7XG4gICAgICAgIHRvcDogMjhweDtcbiAgICAgIH1cbiAgICAgIGEge1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgYmFja2dyb3VuZDogIzU3NUU2MztcbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgLmVtYWlsLCAuY2hhdHtcbiAgICAgICAgcGFkZGluZzogMzZweCAwO1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIC5jb250ZW50IHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgaDMge1xuICAgICAgICAgICAgY29sb3I6ICNmZmY7XG4gICAgICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7XG4gICAgICAgICAgICBtYXJnaW46IC0xMHB4IDA7XG4gICAgICAgICAgICBmb250LXNpemU6IDI0cHg7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICB9XG4gICAgICAuZW1haWwge1xuICAgICAgICBmbG9hdDogbGVmdDtcbiAgICAgICAgd2lkdGg6IDUwJTtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjNzI3ZDg0O1xuICAgICAgfVxuICAgICAgLmNoYXQge1xuICAgICAgICBmbG9hdDogbGVmdDtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICB3aWR0aDogNTAlO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjNmZiYmI3O1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiAjNURBRkFCO1xuICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxuICAucGhvbmUtbnVtYmVycyB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBtaW4taGVpZ2h0OiA2MDBweDtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICBwYWRkaW5nOiAzNnB4IDAgMDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAxMDI1cHgpe1xuICAgICAgd2lkdGg6IDQ5LjglO1xuICAgICAgcGFkZGluZzogMzZweCA1MHB4IDA7XG4gICAgfVxuICAgIC5jaGF0LWNvbnRhaW5lciB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICB0b3A6IDA7XG4gICAgICByaWdodDogMDtcbiAgICAgIGJvdHRvbTogMDtcbiAgICAgIGxlZnQ6IDA7XG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG4gICAgdWwge1xuICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgd2lkdGg6IDQwJTtcbiAgICAgIG1hcmdpbjogMCAwIDI1cHggMjJweDtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNDAwcHgpe1xuICAgICAgICBtYXJnaW46IDMycHggNnB4IDEycHggMjlweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpIHtcbiAgICAgICAgbWFyZ2luOiAyNHB4IDhweCAxMnB4IDEwcHg7XG4gICAgICAgIHdpZHRoOiA0NCU7XG4gICAgICB9XG4gICAgICBsaSB7XG4gICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMThweDtcbiAgICAgICAgcCB7XG4gICAgICAgICAgY29sb3I6ICM3YThiOGY7XG4gICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgICAgfVxuICAgICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNTAwcHgpe1xuICAgICAgICAgICAgZm9udC1zaXplOiAxOHB4O1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICBhIHtcbiAgICAgICAgICBjb2xvcjogIzZmYmJiNztcbiAgICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA1MDBweCl7XG4gICAgICAgICAgICBmb250LXNpemU6IDE4cHg7XG4gICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi8vIGNoYXQgYm94IG9uIGZhcSBwYWdlXG4uY29udGFjdC1mYXEtY29udGFpbmVyIHtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICBtaW4taGVpZ2h0OiA1MjhweDtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDM5OXB4KXtcbiAgICBtaW4taGVpZ2h0OiA0MzZweDtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MnB4KXtcbiAgICBtaW4taGVpZ2h0OiA1NzBweDtcbiAgfVxuICAucXVlc3Rpb25zIHtcbiAgICBtaW4taGVpZ2h0OiBpbml0aWFsO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICAudG9wLWNvbnRlbnQge1xuICAgICAgLy8gbWF4LWhlaWdodDogNTk4cHg7XG4gICAgICBwYWRkaW5nOiAzNnB4IDIwcHg7XG4gICAgfVxuICAgIC5ib3R0b20tY29udGVudCB7XG4gICAgICB0b3A6IDZweDtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KXtcbiAgICAgICAgdG9wOiAxNnB4O1xuICAgICAgfVxuICAgICAgLmNoYXQge1xuICAgICAgICAvLyBoZWlnaHQ6IDEwNCU7XG4gICAgICB9XG4gICAgfVxuICB9XG4gICNoYmxfb3BlcmF0b3Jfc3RhdGVfZGl2IHtcbiAgICBoZWlnaHQ6IDcwJTtcbiAgICAjaGJsX3JlZ2lvbiwgI2hhYmxhX3dpbmRvd19kaXYsICNoYWJsYV93aW5kb3dfc3RhdGVfZGl2LFxuICAgICNoYWJsYV9wYW5lbF9kaXYsICNoYWJsYV9leHBhbmRlZF9kaXYsICNoYWJsYV9taWRkbGVfZGl2LFxuICAgICNoYWJsYV9taWRkbGVfd3JhcHBlcl9kaXYsICNoYWJsYV9jb252ZXJzYXRpb25fZGl2LCAjaGFibGFfb2ZmbGluZV9tZXNzYWdlX2RpdiB7XG4gICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgfVxuICB9XG4gICNoYWJsYV9taWRkbGVfZGl2IHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gIH1cbiAgI2hhYmxhX2NvbnZlcnNhdGlvbl9kaXYge1xuICAgIGhlaWdodDogMTAwJSAhaW1wb3J0YW50O1xuICB9XG4gIC5oYmxfcGFsX3RpdGxlX2ZnIHtcbiAgICB3aWR0aDogODYlO1xuICB9XG4gICNoYmxfdHh0X3dyYXBwZXIge1xuICAgIGhlaWdodDogMjQwcHg7XG4gIH1cbiAgI2hhYmxhX21pZGRsZV93cmFwcGVyX2RpdiB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICB9XG4gICNoYWJsYV9vZmZsaW5lX2JvZHlfaW5wdXQge1xuICAgIGhlaWdodDogMTYzcHggIWltcG9ydGFudDtcbiAgfVxufVxuXG4uZW1wbG95ZXJzLXNlY3Rpb24ge1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIGJhY2tncm91bmQ6ICM3MjdEODQ7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkwcHgpe1xuICAgICAgYmFja2dyb3VuZDogdXJsKCcvaW1hZ2VzL2hvbWUvZW1wbG95ZXJzLWltYWdlLmpwZycpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyO1xuICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICB9XG4gIGgyIHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xuICB9XG4gIHAge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBwYWRkaW5nOiAwIDEwJTtcbiAgfVxufVxuXG4uZW1wbG95ZXJzLXNlY3Rpb24ge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHBhZGRpbmctdG9wOiA1MHB4O1xuICBwYWRkaW5nLWJvdHRvbTogNTBweDtcbiAgLmVtcGxveWVyLWljb24ge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBpbWd7XG4gICAgICB3aWR0aDogNTAlO1xuICAgICAgbWF4LXdpZHRoOiAyMzBweDtcbiAgICB9XG4gIH1cbn1cblxuLnNwb25zb3JzLXNlY3Rpb24ge1xuICBwYWRkaW5nOiAyMHB4O1xuICBoMiB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG4gIGgzIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIH1cbiAgaDQge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBmb250LXN0eWxlOiBpdGFsaWM7XG4gICAgdmVydGljYWwtYWxpZ246IHRvcDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgdG9wOiA1MHB4O1xuICB9XG4gIC5zcG9uc29ycy1jb250YWluZXIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAmLmZlYXR1cmVkIHtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgIG1heC13aWR0aDogMTAwMHB4O1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIGJhY2tncm91bmQ6ICNFM0U3RTk7XG4gICAgICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA0MDFweCkge1xuICAgICAgICB3aWR0aDogNzAlO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjRTNFN0U5O1xuICAgICAgfVxuICAgIH1cbiAgICAuc3BvbnNvci1pbWFnZSB7XG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgfVxuICB9XG59XG5cbi5tZWRpYS1sb2dvIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB3aWR0aDogMTQlO1xuICBwYWRkaW5nOiAwIDRweDtcbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICB3aWR0aDogNDAlO1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNDAwcHgpe1xuICAgIHdpZHRoOiAzMCU7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA2NDBweCl7XG4gICAgd2lkdGg6IDE4JTtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEwNTBweCl7XG4gICAgd2lkdGg6IDEzJTtcbiAgfVxuICBpbWcge1xuICAgIC8vIG1heC13aWR0aDogMTAwcHg7XG4gIH1cbn1cblxuLy8gI29sYXJrLWJveC1jb250YWluZXIge1xuLy8gICBoZWlnaHQ6IDEwMCU7XG4vLyAgIHdpZHRoOiAxMDAlO1xuLy8gICB6LWluZGV4OiAxMDA7XG4vLyAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbi8vICAgdG9wOiAwO1xuLy8gICByaWdodDogMDtcbi8vICAgYm90dG9tOiAwO1xuLy8gICBsZWZ0OiAwO1xuLy8gfVxuXG4vLyBvbGFyayBDU1Ncbi5oYWJsYS1kZXNrdG9wIHtcbiAgZm9udC1mYW1pbHk6IFwiZmYtdGlzYS13ZWItcHJvXCIsc2VyaWY7XG4gIGJhY2tncm91bmQ6IHdoaXRlO1xuICBiYWNrZ3JvdW5kOiAjRkZGO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgYm90dG9tOiAwO1xuICByaWdodDogMDtcbiAgbGVmdDogMDtcbn1cblxuLmhibF9wYWxfdGl0bGVfZmcge1xuICBkaXNwbGF5OiBub25lO1xufVxuI2hhYmxhX29mZmxpbmVfbWVzc2FnZV9zcGFuIHtcbiAgZm9udC1zaXplOiAyMHB4O1xuICBmb250LXdlaWdodDogNjAwO1xufVxuI2hhYmxhX3dpbmRvd19kaXYge1xuICBtYXJnaW46IDAgIWltcG9ydGFudDtcbiAgcGFkZGluZzogMTZweDtcbn1cbiNoYWJsYV9uYW1lX2lucHV0LCAjaGFibGFfb2ZmbGluZV9lbWFpbF9pbnB1dCwgI2hhYmxhX3djc2VuZF9pbnB1dCAge1xuICBwYWRkaW5nLWxlZnQ6IDhweDtcbiAgd2lkdGg6IDEwMCU7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNEMEQxRDM7XG4gIGhlaWdodDogMzBweCAhaW1wb3J0YW50O1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIG1hcmdpbi1ib3R0b206IDEwcHg7XG4gIG1hcmdpbi10b3A6IDEwcHg7XG59XG4jaGFibGFfb2ZmbGluZV9ib2R5X2lucHV0IHtcbiAgaGVpZ2h0OiAzMjBweCAhaW1wb3J0YW50O1xuICBib3JkZXI6IDFweCBzb2xpZCAjRDBEMUQzO1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIHdpZHRoOiAxMDAlO1xuICBwYWRkaW5nLWxlZnQ6IDhweDtcbn1cbiNoYWJsYV9vZmZsaW5lX3N1Ym1pdF9pbnB1dCB7XG4gIGJhY2tncm91bmQ6ICM2RkJCQjc7XG4gIGJvcmRlcjogbm9uZTtcbiAgcGFkZGluZzogMHB4IDI2cHggNHB4O1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGZvbnQtc2l6ZTogMjRweDtcbiAgY29sb3I6ICNmZmY7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICB0b3A6IDEwcHg7XG4gIG1hcmdpbi10b3A6IDE2cHg7XG59XG4jaGFibGFfZXhwYW5kZWRfZGl2IHtcbiAgZGl2Om50aC1jaGlsZCgwbisyKXtcbiAgICAvLyBkaXNwbGF5OiBub25lO1xuICB9XG59XG4jaGFibGFfY29udmVyc2F0aW9uX2RpdiB7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNEMEQxRDM7XG4gIHBhZGRpbmctbGVmdDogNnB4O1xufVxuI2hhYmxhX2JvdGhfZGl2IHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAuY2xvc2UtY2hhdCB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHotaW5kZXg6IDIwO1xuICAgIGZvbnQtc2l6ZTogMjRweDtcbiAgICBmb250LXdlaWdodDogNjAwO1xuICAgICY6aG92ZXIge1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgcmlnaHQ6IC0xMHB4O1xuICAgICAgdG9wOiAtMjZweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA1MDBweCl7XG4gICAgICByaWdodDogMDtcbiAgICAgIHRvcDogLThweDtcbiAgICB9XG4gIH1cbn1cblxuLmhibF9wYWxfdGl0bGVfZmcge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIGNvbG9yOiAjMzk0NzRFO1xuICBmb250LXNpemU6IDI0cHg7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgYm90dG9tOiA0cHg7XG4gICY6aG92ZXIge1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgfVxufVxuLmhhYmxhX2NvbnZlcnNhdGlvbl9wZXJzb24yIHtcbiAgY29sb3I6ICMzOTQ3NEU7XG4gIGZvbnQtc3R5bGU6IHVwcGVyY2FzZTtcbiAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgLy8gYmFja2dyb3VuZDogI2VlZTtcbn1cblxuLmhhYmxhX2NvbnZlcnNhdGlvbl9wX2l0ZW0ge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDRweCA4cHg7XG59XG5cbi5vbHJrX2F2YXRhcntcbiAgbWFyZ2luLXJpZ2h0OiA4cHg7XG59XG5cbi8vIHV0aWxpdHkgY2xhc3Ncbi50ZXh0LWNlbnRlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnN1Y2Nlc3Mtc3Rvcmllcy1idG4ge1xuICBiYWNrZ3JvdW5kOiAjNkZCQkI3O1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIGZvbnQtc2l6ZTogMThweDtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDY0MHB4KXtcbiAgICBmb250LXNpemU6IDIycHg7XG4gIH1cbiAgJjpob3ZlciB7XG4gICAgYmFja2dyb3VuZDogIzVCOUQ5OTtcbiAgfVxufVxuXG4uaGVhZGVyLWRpbW1lciB7XG4gIGJhY2tncm91bmQ6IG5vbmUgIWltcG9ydGFudDtcbn1cblxuLy8gc3RvcmllcyBwYWdlXG4uZmVlZC1ib3gge1xuICAvLyBiYWNrZ3JvdW5kOiAjZWVlO1xuICBwYWRkaW5nOiAyMHB4IDEwcHg7XG59XG4vLyBKb2JzIFBhZ2UgdGVtcCBzdHlsZXMocHJlLWdob3N0LXNoaWVsZClcbi5qb2JzLXNlY3Rpb24ge1xuICBzZWxlY3Qge1xuICAgIHdpZHRoOiAxOTBweDtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgYm9yZGVyOiAxcHggc29saWQgIzAwMDtcbiAgICB0b3A6IC02cHg7XG4gICAgbGVmdDogMTBweDtcbiAgICAmOmZvY3VzIHtcbiAgICAgIG91dGxpbmUtY29sb3I6ICNmZmY7XG4gICAgfVxuICB9XG59XG4jd2hyX2VtYmVkX2hvb2sge1xuICBoMiB7XG4gICAgYSB7XG4gICAgICBjb2xvcjogIzM5NDc0RTtcbiAgICB9XG4gIH1cbiAgLndoci1pdGVtcyB7XG4gICAgLy8gZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDtcbiAgICAud2hyLXRpdGxlIHtcbiAgICAgIG1hcmdpbi1ib3R0b206IDRweDtcbiAgICAgIGEge1xuICAgICAgICBjb2xvcjogIzM5NDY0RTtcbiAgICAgICAgZm9udC1zaXplOiAyNHB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG4vLyBhcHBsaWNhdGlvbiBmb3JtIHRlbXAgc3R5bGVzXG5cbiNmb3JtNCB7XG4gIHRleHRhcmVhIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuICAjZm9saTEsICNmb2xpMiB7XG4gICAgaW5wdXQge1xuICAgICAgd2lkdGg6IDEwMCU7XG4gICAgfVxuICB9XG4gICNmb2xpMTEwIHtcbiAgICBtYXgtd2lkdGg6IDM3MHB4O1xuICAgIGZpZWxkc2V0IHtcbiAgICAgIHNwYW4ge1xuICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgI2ZvbGkxMzgge1xuICAgIC5jb2wtc20tNiB7XG4gICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgIH1cbiAgICBkaXYge1xuICAgICAgc3BhbiB7XG4gICAgICAgICY6bnRoLWNoaWxkKDEpe1xuICAgICAgICAgIGlucHV0IHtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDRweDtcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDRweDtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgICAgaW5wdXQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIH1cbiAgICAgICAgbGFiZWwge1xuICAgICAgICAgIC8vIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcbiAgICAgICAgICBjb2xvcjogIzcwN0Y4NjtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgICAuY291bnRyeSB7XG4gICAgICBzZWxlY3Qge1xuICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxuICAjZm9saTExNyB7XG4gICAgbGFiZWwge1xuICAgICAgJjpudGgtY2hpbGQoMSl7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgfVxuICAgIH1cbiAgfVxuICAjZm9saTE1MCB7XG4gICAgcCB7XG4gICAgICBtYXgtd2lkdGg6IDUwMHB4O1xuICAgIH1cbiAgICBmaWVsZHNldCB7XG4gICAgICBtYXgtd2lkdGg6IDI4MHB4O1xuICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICB9XG4gICAgaW5wdXQge1xuICAgICAgbWFyZ2luLXJpZ2h0OiA0cHg7XG4gICAgfVxuICB9XG4gIC5idXR0b25zIHtcbiAgICAuYnRuIHtcbiAgICAgIG1hcmdpbi1sZWZ0OiAxOHB4O1xuICAgIH1cbiAgfVxufVxuXG4vLyB0ZW1wIGRlbW8gZGF5IHBhZ2Ugc3R5bGVzXG4uZGVtb2RheSB7XG4gIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjRjJGNEY1O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAuY29sLXhzLTEyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIH1cbiAgLmRlbW8tZGF5LXBpYyB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MXB4KXtcbiAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgIG1hcmdpbi1ib3R0b206IDMwcHg7XG4gICAgfVxuICB9XG4gIC5mb3VyLWNvbC1jdGEge1xuICAgIC8vIG1heC1oZWlnaHQ6IDEzNnB4O1xuICAgIGJhY2tncm91bmQ6ICNFM0U3RTk7XG4gICAgcGFkZGluZy1ib3R0b206IDEycHg7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIGhlaWdodDogNTEwcHg7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY5cHgpe1xuICAgICAgaGVpZ2h0OiA0MDBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTBweCl7XG4gICAgICBoZWlnaHQ6IGluaGVyaXQ7XG4gICAgfVxuICB9XG4gIC5yb3cge1xuICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgIHBhZGRpbmctYm90dG9tOiA0MHB4O1xuICAgIH1cbiAgICBoMSB7XG4gICAgICBtYXJnaW4tdG9wOiAwO1xuICAgIH1cbiAgICBpbWcge1xuICAgICAgbWFyZ2luLXRvcDogMThweDtcbiAgICB9XG4gIH1cbiAgLmRlbW8tZGF5LWluZm8ge1xuICAgIC8vIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgIHAge1xuICAgICAgbWFyZ2luOiAwO1xuICAgIH1cbiAgICBoNCB7XG4gICAgICBwYWRkaW5nOiAwO1xuICAgIH1cbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MXB4KSB7XG4gICAgLmRlbW8tZGF5LWluZm8ge1xuICAgICAgcGFkZGluZy10b3A6IDMycHg7XG4gICAgfVxuICB9XG59XG5cbi5mb3VyLWNvbC1jdGEge1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIC5idG4ge1xuICAgIG1hcmdpbi10b3A6IDM2cHg7XG4gICAgbWluLXdpZHRoOiAxNDFweDtcbiAgICAmOmhvdmVyIHtcbiAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTFweCkge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICB0b3A6IDEwcHg7XG4gICAgfVxuICB9XG59XG4vLyBlbmQgZGVtbyBkYXkgdGVtcCBzdHlsZXNcblxuLmludHJvLWNvdXJzZS1waG90byB7XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2N3B4KSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIHdpZHRoOiA3MCU7XG4gICAgbWFyZ2luOiAyMHB4IDA7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTFweCkge1xuICAgIHdpZHRoOiA5MCU7XG4gICAgbWFyZ2luLXRvcDogNDBweDtcbiAgICBtYXJnaW4tbGVmdDogNDBweDtcbiAgfVxufVxuXG4vLyBjcmFzaC1jb3Vyc2UgcGFnZSB0ZW1wIHN0eWxlc1xuLmNyYXNoLWNvdXJzZSB7XG4gIGxpIHtcbiAgICBtYXgtd2lkdGg6IDQ0MHB4O1xuICB9XG4gIGEge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkxcHgpIHtcbiAgICAgIC8vIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRvcDogNTVweDtcbiAgICAgIGxlZnQ6IDYwcHg7XG4gICAgfVxuICB9XG4gIC5idG4ge1xuICAgICYuZ3JheS1vdXQge1xuICAgICAgYmFja2dyb3VuZDogIzk4OTg5ODtcbiAgICAgICY6aG92ZXIge1xuICAgICAgICBiYWNrZ3JvdW5kOiAjOTg5ODk4O1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG4vLyBqb2JzIHBhZ2Vcbi5qb2ItcG9zdGluZyB7XG4gIHAge1xuICAgIG1hcmdpbjogMDtcbiAgfVxuICBocjpsYXN0LW9mLXR5cGUge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbn1cblxuLm1jLWJveCB7XG4gIGJhY2tncm91bmQ6ICNmZmY7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgd2lkdGg6IDgwJTtcbiAgcGFkZGluZzogMCAyMHB4IDIwcHg7XG4gICYuaW50cm8ge1xuICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIHdpZHRoOiAyNDBweDtcbiAgICBwYWRkaW5nOiAwIDIwcHggMjBweDtcbiAgICBtYXJnaW46IDAgYXV0bztcbiAgICBpbnB1dCB7XG4gICAgICBtYXJnaW4tdG9wOiAyMHB4OyAgXG4gICAgfVxuICAgIC5idG4ge1xuICAgICAgbWFyZ2luLXRvcDogMTBweDtcbiAgICAgIG1hcmdpbi1ib3R0b206IC0yMHB4O1xuICAgIH1cbiAgfVxuICBoMyB7XG4gICAgcGFkZGluZy10b3A6IDEwcHg7XG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xuICB9XG4gIGlucHV0IHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgd2lkdGg6IDIwMHB4O1xuICAgIHBhZGRpbmctbGVmdDogNnB4O1xuICB9XG4gIC5idG4ge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgYmFja2dyb3VuZDogIzZmYmJiNztcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIC5idG4ge1xuICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgbGluZS1oZWlnaHQ6IDE4cHg7XG4gICAgfVxuICB9XG4gIC5tY2VfaW5saW5lX2Vycm9yOm50aC1jaGlsZCgyKSB7XG4gICAgYmFja2dyb3VuZDogIzZmYmJiNyAhaW1wb3J0YW50O1xuICB9XG59XG4vLyAjcHJvZ3JhbXMge1xuLy8gICAuY2xlYXIge1xuLy8gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbi8vICAgfVxuLy8gICAubWMtZmllbGQtZ3JvdXAge1xuLy8gICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbi8vICAgICBpbnB1dCB7XG4vLyAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4vLyAgICAgICBoZWlnaHQ6IDUwcHg7XG4vLyAgICAgICBwYWRkaW5nLWxlZnQ6IDZweDtcbi8vICAgICB9XG4vLyAgIH1cbi8vICAgLm1jLWJ0biB7XG4vLyAgICAgYm9yZGVyOiBub25lO1xuLy8gICAgIGhlaWdodDogNTBweDtcbi8vICAgICBsaW5lLWhlaWdodDogMTZweDtcbi8vICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4vLyAgICAgYmFja2dyb3VuZDogIzZmYmJiNztcbi8vICAgfVxuLy8gICAubWNlX2lubGluZV9lcnJvcjpudGgtY2hpbGQoMikge1xuLy8gICAgIGJhY2tncm91bmQ6ICM2ZmJiYjcgIWltcG9ydGFudDtcbi8vICAgfVxuLy8gfVxuI3Byb2dyYW1zIHtcbiAgLmNsZWFyIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cbiAgLm1jLWZpZWxkLWdyb3VwIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgaW5wdXQge1xuICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgcGFkZGluZy1sZWZ0OiA2cHg7XG4gICAgfVxuICB9XG4gIC5tYy1idG4ge1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBoZWlnaHQ6IDUwcHg7XG4gICAgbGluZS1oZWlnaHQ6IDE2cHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGJhY2tncm91bmQ6ICM2ZmJiYjc7XG4gIH1cbiAgLm1jZV9pbmxpbmVfZXJyb3I6bnRoLWNoaWxkKDIpIHtcbiAgICBiYWNrZ3JvdW5kOiAjNmZiYmI3ICFpbXBvcnRhbnQ7XG4gIH1cbn1cblxuLmFjdGlvbi1ib3gge1xuICBtYXJnaW4tdG9wOiAxMHB4O1xuICBwYWRkaW5nLWJvdHRvbTogMzBweDtcbiAgcGFkZGluZy10b3A6IDE0cHg7XG4gIGJhY2tncm91bmQ6ICNlM2U3ZTk7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgcDpudGgtY2hpbGQoMSl7XG4gICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgfVxuICBwOm50aC1jaGlsZCgyKXtcbiAgICBtYXJnaW4tdG9wOiAwO1xuICB9XG4gIGlucHV0IHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBoZWlnaHQ6IDQwcHg7XG4gICAgd2lkdGg6IDIwMHB4O1xuICAgIHBhZGRpbmctbGVmdDogNnB4O1xuICB9XG4gIC5idG4ge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgYmFja2dyb3VuZDogIzZmYmJiNztcbiAgfVxuICAubWNlX2lubGluZV9lcnJvcjpudGgtY2hpbGQoMikge1xuICAgIGJhY2tncm91bmQ6ICM2ZmJiYjcgIWltcG9ydGFudDtcbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIC5idG4ge1xuICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgbGluZS1oZWlnaHQ6IDE4cHg7XG4gICAgfVxuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDo5OTFweCl7XG4gICAgLmNvbC1tZC01IHtcbiAgICAgIHBhZGRpbmctdG9wOiAzNnB4O1xuICAgICAgaW5wdXQge1xuICAgICAgICBtYXJnaW46IDAgYXV0bztcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuICAgICAgLmJ0biB7XG4gICAgICAgIG1hcmdpbjogMTBweCBhdXRvO1xuICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgaGVpZ2h0OiA0MHB4O1xuICAgICAgICB3aWR0aDogMjAwcHg7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAxOHB4O1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi5ocy1pbnB1dCB7XG4gIGhlaWdodDogNDBweDtcbiAgbWFyZ2luLWJvdHRvbTogLTEwcHg7XG4gIHBhZGRpbmctbGVmdDogNnB4O1xufVxuXG4vLyBuZXcgY291cnNlcyBwYWdlIHN0eWxpbmdzXG4uY291cnNlcy1uYXYge1xuICBoZWlnaHQ6IDc0cHg7XG4gIC5jb2wtbWQtMyB7XG4gICAgcGFkZGluZy10b3A6IDE4cHg7XG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xuICAgIGhlaWdodDogNzRweDtcbiAgICBib3JkZXItbGVmdDogMXB4IHNvbGlkICNhN2E3YTc7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgJjpob3ZlciB7XG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgfVxuICAgICY6bGFzdC1vZi10eXBlIHtcbiAgICAgIGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNhN2E3YTc7XG4gICAgfVxuICB9XG4gIC5jdXJyZW50IHtcbiAgICBiYWNrZ3JvdW5kOiAjNmZiYmI3O1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTk1cHgpe1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbn1cblxuLm9mZmVyaW5ncywgLnR1aXRpb24tdHlwZXMge1xuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDk5NXB4KSB7XG4gICAgbWFyZ2luLXRvcDogNDBweDtcbiAgfVxuICAmICNwYXJ0LXRpbWUsICNzZWxmLXBhY2VkLCAjY3Jhc2gtY291cnNlcyB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuICAubW9iaWxlLWNvdXJzZS1uYXYtaXRlbSB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgJi5iZ3JvdW5kIHtcbiAgICAgIGJhY2tncm91bmQ6ICM2ZmJiYjc7XG4gICAgfVxuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTk1cHgpIHtcbiAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgYmFja2dyb3VuZDogIzgzOEI4RjtcbiAgICAgIG1hcmdpbi1sZWZ0OiAtMTVweDtcbiAgICAgIG1hcmdpbi1yaWdodDogLTE1cHg7XG4gICAgICBjb2xvcjogI2ZmZjtcbiAgICAgIHBhZGRpbmctbGVmdDogOCU7XG4gICAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2E3YTdhNztcbiAgICAgIGgzIHtcbiAgICAgICAgZm9udC1zaXplOiAyNHB4O1xuICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgcGFkZGluZzogMTJweCAwO1xuICAgICAgfVxuICAgICAgJjpob3ZlciB7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgIH1cbiAgICB9XG4gIH1cbiAgI2ltbWVyc2l2ZSwgI3BhcnQtdGltZSxcbiAgI3NlbGYtcGFjZWQsICNjcmFzaC1jb3Vyc2VzIHtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDk5NXB4KSB7XG4gICAgICBkaXNwbGF5OiBub25lO1xuICAgICAgJi5zaG93IHtcbiAgICAgICAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxuLnR1aXRpb24tdHlwZXMge1xuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KXtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG4gICYudHVpdGlvbi1uYXYge1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpe1xuICAgICAgZGlzcGxheTogbm9uZTtcbiAgICB9XG4gIH1cbiAgLnR1aXRpb24tYm94IHtcbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5NXB4KXtcbiAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgfVxuICB9XG59XG5cbi8vIHN1Ym5hdiBzdHlsaW5nc1xuLnN1Yi1uYXYge1xuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc3NXB4KSB7XG4gICAgdWwge1xuICAgICAgbGkge1xuICAgICAgICBmbG9hdDogbGVmdDtcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxuLy8gYXJyb3dcbi5hcnJvdyB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDglO1xuICBib3R0b206IDE2cHg7XG4gIHdpZHRoOiAwOyBcbiAgaGVpZ2h0OiAwOyBcbiAgYm9yZGVyLXRvcDogMTRweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLWJvdHRvbTogMTRweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgYm9yZGVyLWxlZnQ6IDE0cHggc29saWQgI2ZmZjtcbiAgJi5vcGVuIHtcbiAgICBib3R0b206IDhweDtcbiAgICByaWdodDogIDclO1xuICAgIGJvcmRlci1sZWZ0OiAxNHB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIGJvcmRlci1yaWdodDogMTRweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgICBib3JkZXItdG9wOiAxNHB4IHNvbGlkICNmZmY7XG4gIH1cbn1cblxuLnR1aXRpb24tdHlwZXMge1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICNpbW1lcnNpdmUsICNwYXJ0LXRpbWUsXG4gICAgI3NlbGYtcGFjZWQsICNjcmFzaC1jb3Vyc2VzIHtcbiAgICAgIG1hcmdpbjogMCAtMzBweDtcbiAgICB9XG4gIH1cbn1cblxuLnR1aXRpb24tbGFyZ2Uge1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCl7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gIH1cbn1cblxuLnR1aXRpb24tYm94IHtcbiAgYm9yZGVyOiAxcHggc29saWQgI2QwZDFkMztcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICBoMyB7XG4gICAgbWFyZ2luOiAwO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuICBoNSB7XG4gICAgY29sb3I6ICNDOENCQ0Q7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgfVxuICBwIHtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgbWFyZ2luOiAwO1xuICB9XG4gIC50dWl0aW9uLXR5cGUsIC50dWl0aW9uLWZvcm1hdCxcbiAgLnR1aXRpb24tY3VycmljdWx1bSwgLnR1aXRpb24tY2FyZWVyLFxuICAudHVpdGlvbi1maW5hbmNpbmcsIC50dWl0aW9uLWNvc3Qge1xuICAgIHBhZGRpbmc6IDBweCAxMHB4O1xuICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpe1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgaHIge1xuICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICAgIGJvdHRvbTogMDtcbiAgICAgICAgbGVmdDogMTVweDtcbiAgICAgICAgcmlnaHQ6IDE1cHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC5hc3RlcmlzayB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgdG9wOiAtN3B4O1xuICAgIGxlZnQ6IC00cHg7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICBoNSB7XG4gICAgICBtYXJnaW46IDE0cHggMCA0cHg7XG4gICAgfVxuICAgIHVsIHtcbiAgICAgIGxpIHtcbiAgICAgICAgbWFyZ2luLWxlZnQ6IC0yNnB4O1xuICAgICAgICBmb250LXNpemU6IDdweDtcbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICB9XG4gICAgICAgIHNwYW4ge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgICAgfVxuICAgICAgfSAgIFxuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KXtcbiAgICAgIG1pbi1oZWlnaHQ6IDEwMDBweDtcbiAgICB9XG4gICAgLnR1aXRpb24tdGl0bGUge1xuICAgICAgcGFkZGluZzogMTBweCAyNHB4O1xuICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgYmFja2dyb3VuZDogI2UzZTdlOTtcbiAgICAgIG1hcmdpbjogMCAtMTVweDtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB9XG4gICAgLnR1aXRpb24tdHlwZSB7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KXtcbiAgICAgICAgaGVpZ2h0OiA5MHB4O1xuICAgICAgfVxuICAgIH1cbiAgICAudHVpdGlvbi1mb3JtYXQge1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCl7XG4gICAgICAgIGhlaWdodDogMTMwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCl7XG4gICAgICAgIGhlaWdodDogMTUwcHg7XG4gICAgICB9XG4gICAgfVxuICAgIC50dWl0aW9uLWN1cnJpY3VsdW0ge1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCl7XG4gICAgICAgIGhlaWdodDogMjAwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCl7XG4gICAgICAgIGhlaWdodDogMjIwcHg7XG4gICAgICB9XG4gICAgfVxuICAgIC50dWl0aW9uLWNhcmVlciB7XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KXtcbiAgICAgICAgaGVpZ2h0OiAyMDBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KXtcbiAgICAgICAgaGVpZ2h0OiAyNTBweDtcbiAgICAgIH1cbiAgICB9XG4gICAgLnR1aXRpb24tZmluYW5jaW5nIHtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpe1xuICAgICAgICBoZWlnaHQ6IDE2MHB4O1xuICAgICAgfVxuICAgIH1cbiAgICAudHVpdGlvbi1jb3N0IHtcbiAgICAgIGg1IHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogLTEwcHg7XG4gICAgICB9XG4gICAgICBwIHtcbiAgICAgICAgZm9udC1zaXplOiAzNHB4O1xuICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICBtYXJnaW4tdG9wOiAwO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAxOHB4OyBcbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cblxuXG4vLyBjb3Vyc2Ugb2ZmZXJpbmcgY2hlY2tib3hlc1xuLmNvdXJzZS1jYnMge1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIGZpZWxkc2V0IHtcbiAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIC8vIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIC8vIGxlZnQ6IC0yNXB4O1xuICAgICAgaDMge1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG4gICAgfVxuICAgIHVsIHtcbiAgICAgIGxpIHtcbiAgICAgICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICAgICAgfVxuICAgIH1cbiAgICAuY29sLW1kLTEyIHtcbiAgICAgIHBvc2l0aW9uOiBpbmhlcml0O1xuICAgIH1cbiAgfVxuICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6MTIwMHB4KSB7ICBcbiAgICBmb3JtIHtcbiAgICAgIC5kZXNjIHtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICAgIH1cbiAgICAgIC5idG4ge1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgbGVmdDogMHB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG5cbi5jb3Vyc2UtY2hlY2tib3gge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgYmFja2dyb3VuZDogI2UzZTdlOTtcbiAgaW1nIHtcbiAgICBtYXgtd2lkdGg6IDYwcHg7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICBtYXJnaW4tYm90dG9tOiAzNnB4O1xuICAgIG1pbi1oZWlnaHQ6IDQyMHB4O1xuICB9XG4gIC5jaG9pY2Uge1xuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIGlucHV0W3R5cGU9Y2hlY2tib3hdIHtcbiAgICBvcGFjaXR5OiAwLjU7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkycHgpIHtcbiAgICBwYWRkaW5nLXRvcDogMTBweDtcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgIC5jb2wtbWQtOCB7XG4gICAgICBwYWRkaW5nLXRvcDogMTZweDtcbiAgICAgIHBhZGRpbmctbGVmdDogMzRweDtcbiAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgfSAgIFxuICAgIC5jb2wtbWQtMTIge1xuICAgICAgbGVmdDogMDtcbiAgICB9IFxuICAgICNzYXZlRm9ybSB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICBsZWZ0OiAxMDBweDtcbiAgICB9XG4gIH1cbiAgLnNlbGVjdC1ib3gge1xuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBiYWNrZ3JvdW5kOiAjNzM3RTg0O1xuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xuICAgIG1heC13aWR0aDogMjQwcHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAzNnB4O1xuICAgIG1hcmdpbjogMCBhdXRvO1xuICAgICY6aG92ZXIge1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIH1cbiAgICAmLnNlbGVjdCB7XG4gICAgICBiYWNrZ3JvdW5kOiAjNmZiYmI3O1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgbGVmdDogNTBweDtcbiAgICAgIHJpZ2h0OiA1MHB4O1xuICAgICAgYm90dG9tOiAxNHB4OyAgICAgIFxuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc0MXB4KSBhbmQgKG1heC13aWR0aDoxMTk5cHgpIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGxlZnQ6IDUwcHg7XG4gICAgICByaWdodDogNTBweDtcbiAgICAgIGJvdHRvbTogMThweDtcbiAgICB9XG4gIH1cbiAgaW5wdXRbdHlwZT1jaGVja2JveF0ge1xuICAgIG9wYWNpdHk6IDA7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICBib3R0b206IDQwcHg7XG4gIH1cbiAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NDFweCkgYW5kIChtYXgtd2lkdGg6MTE5OXB4KSB7XG4gICAgbWluLWhlaWdodDogNDQ1cHg7XG4gICAgYm9yZGVyOiA2cHggc29saWQgd2hpdGU7XG4gICAgbWFyZ2luLWJvdHRvbTogMnB4O1xuICAgIC5jb2wtbWQtMTIge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAwO1xuICAgICAgdG9wOiAxMTZweDtcbiAgICAgIGxhYmVsIHtcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgICBib3R0b206IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KXtcbiAgICBtaW4taGVpZ2h0OiA0MDBweDtcbiAgICBib3JkZXI6IDE2cHggc29saWQgI2ZmZjtcbiAgICAuY29sLW1kLTQsIC5jb2wtbWQtOCB7XG4gICAgICBwYWRkaW5nLXRvcDogMjRweDtcbiAgICB9XG4gICAgLmNvbC1tZC0xMiB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDA7XG4gICAgICB0b3A6IDc4cHg7XG4gICAgfVxuICAgIC5jb2wtbWQtOCB7XG4gICAgICBwYWRkaW5nLWxlZnQ6IDE2cHg7XG4gICAgfVxuICAgIC5jaG9pY2Uge1xuICAgICAgYm90dG9tOiAxMnB4O1xuICAgICAgbGVmdDogLTE4cHg7XG4gICAgfVxuICAgIGltZyB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICBib3R0b206IDE4cHg7XG4gICAgICB3aWR0aDogOTAlO1xuICAgIH1cbiAgICBwIHtcbiAgICAgIG1hcmdpbjogMDtcbiAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICBib3R0b206IC0xMHB4O1xuICAgICAgbGVmdDogMThweDtcbiAgICAgIHdpZHRoOiA4MCU7XG4gICAgfVxuICAgIC5zZWxlY3QtYm94IHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjRweDtcbiAgICAgIGxlZnQ6IDE0cHg7XG4gICAgICByaWdodDogMTRweDtcbiAgICAgICY6aG92ZXIge1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICB9XG4gICAgICBpbnB1dFt0eXBlPWNoZWNrYm94XSB7XG4gICAgICAgIG9wYWNpdHk6IDA7XG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgbGVmdDogNTAlO1xuICAgICAgICBib3R0b206IDQwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG4gIC8vIGVtYWlsIGJveCBzdHlsaW5ncyBmb3IgdGVzdGluZ1xuICAmLmVtYWlsLWJveCB7XG4gICAgaW1nIHtcbiAgICAgIG1heC13aWR0aDogMTAwJTtcbiAgICAgIHBvc2l0aW9uOiBpbml0aWFsO1xuICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICB9XG4gICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6MTIwMHB4KXtcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICB9XG4gICAgfVxuICAgIC5jb2wtbWQtMTIge1xuICAgICAgcG9zaXRpb246IGluaXRpYWw7XG4gICAgfVxuICAgIC5pbnB1dC1jZW50ZXIge1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgfVxuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCl7XG4gICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XG4gICAgICB9XG4gICAgICAjc2F2ZUZvcm0ge1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgIHBvc2l0aW9uOiBpbml0aWFsICFpbXBvcnRhbnQ7XG4gICAgICB9XG4gICAgfVxuICAgIC5jb2wtbWQtNiwgLmNvbC1tZC04IHtcbiAgICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgcGFkZGluZy1sZWZ0OiAzMHB4O1xuICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgICAgcGFkZGluZy1sZWZ0OiAxNXB4O1xuICAgICAgfVxuICAgICAgaDQge1xuICAgICAgICBtYXJnaW4tdG9wOiA2cHg7XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgfVxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MnB4KXtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAtNXB4O1xuICAgICAgICB9XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KXtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAtMTVweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgICAgaDQsIHAge1xuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MnB4KXtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgICBpbnB1dCB7XG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgICB3aWR0aDogMjgwcHg7XG4gICAgICB9XG4gICAgICBwIHtcbiAgICAgICAgcG9zaXRpb246IGluaXRpYWw7XG4gICAgICAgIG1hcmdpbi1ib3R0b206IDg4cHg7XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogNTBweDtcbiAgICAgICAgfVxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MnB4KXtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4O1xuICAgICAgICB9XG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMTIwMHB4KXtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAzNnB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgICAmLnBhZGRpbmctbGVmdCB7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgbGVmdDogMThweDtcbiAgICAgIH1cbiAgICAgIC5zZWxlY3QtYm94IHtcbiAgICAgICAgcG9zaXRpb246IGluaXRpYWw7XG4gICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICBtYXJnaW46IDEwcHggYXV0bztcbiAgICAgICAgaGVpZ2h0OiA2MHB4O1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiA1MnB4O1xuICAgICAgICBmb250LXNpemU6IDMwcHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICMzOTQ3NEU7XG4gICAgICAgIHdpZHRoOiAyODBweDtcbiAgICAgICAgbWF4LXdpZHRoOiAzMDBweDtcbiAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCl7XG4gICAgICAgICAgbWFyZ2luLWxlZnQ6IDA7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gICAgLmNvbC1tZC00IHtcbiAgICAgIHBvc2l0aW9uOiBpbml0aWFsO1xuICAgIH1cbiAgfVxuICAmLmZvcm1hdC1ib3gge1xuICAgIG1pbi1oZWlnaHQ6IDMyMHB4O1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBtYXgtd2lkdGg6IDQyMHB4O1xuICAgIHZlcnRpY2FsLWFsaWduOiB0b3A7XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIHtcbiAgICAgIHdpZHRoOiAxMDAlO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2MHB4KSB7XG4gICAgICB3aWR0aDogNDklO1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkge1xuICAgICAgaGVpZ2h0OiAzODBweDtcbiAgICAgIHAge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiA5MCU7XG4gICAgICB9XG4gICAgfVxuICAgIC5jb2wtbWQtMTIge1xuICAgICAgcG9zaXRpb246IGluaXRpYWw7XG4gICAgICBwYWRkaW5nLXRvcDogMjBweDtcbiAgICAgIGxhYmVsIHtcbiAgICAgICAgZm9udC1zaXplOiAzMHB4O1xuICAgICAgICBwb3NpdGlvbjogaW5pdGlhbDtcbiAgICAgIH1cbiAgICAgIHAge1xuICAgICAgICBtYXJnaW4tdG9wOiAtMjBweDtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG4vLyBsYW5kaW5nIHBhZ2UgbG9nbyB0d2Vha1xuLmxhbmRpbmctbG9nby1jb250YWluZXIge1xuICBAbWVkaWEgb25seSBzY3JlZW4ge1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICB0b3A6IC0yODBweDtcbiAgICAubGFuZGluZy1sb2dvIHtcbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiB7XG4gICAgICAgIHdpZHRoOiAxMjBweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkxcHgpIHtcbiAgICAgICAgd2lkdGg6IDEyMHB4O1xuICAgICAgfVxuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQ5MXB4KSB7XG4gICAgICB0b3A6IC0zNzBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTFweCkge1xuICAgICAgdG9wOiAtMzUwcHg7XG4gICAgfVxuICB9XG59XG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cbiJdfQ==*/
