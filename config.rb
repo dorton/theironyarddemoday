@@ -1,31 +1,41 @@
+require 'csv'
+require 'ostruct'
 require "json"
+require 'open-uri'
 
-["Houston", "Austin", "Atlanta", "Charleston", "Greenville", "Las_Vegas", "Nashville", "Orlando", "Washington_D_C", "Tampa_Bay", "Spartenburg", "London"].each do |city|
+
+["Atlanta", "Charleston", "Greenville", "Las_Vegas", "Nashville", "Orlando", "Washington_D_C", "Tampa", "Spartenburg", "London", "Durham", "Houston", "Austin"].each do |city|
   proxy "/#{city}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
 end
 
 helpers do
 
+  def all_students
+    json = open("https://tiydemoday.herokuapp.com/api/v1/students").read
+    JSON.parse(json)["students"].map do |hash|
+      OpenStruct.new(hash)
+    end
+  end
 
 # filters rails students
     def rails
-      data.responses.select {|c| c["class"] =~ /Rails/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      all_students.select {|c| c["course"] =~ /Rails Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 
 # filters js students
     def js
-      data.responses.select {|c| c["class"] =~ /JS/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      all_students.select {|c| c["course"] =~ /Front End Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 # filters ui students
-    def ui
-      data.responses.select {|c| c["class"] =~ /UI/}.sort_by {|lastname| lastname["name"].split(" ").last}
+    def python
+      all_students.select {|c| c["course"] =~ /Python Data Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 # filters mobile students
     def mobile
-      data.responses.select {|c| c["class"] =~ /Mobile/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      all_students.select {|c| c["course"] =~ /Mobile Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 

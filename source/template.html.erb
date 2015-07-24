@@ -20,7 +20,10 @@
         <div class="vslide">
             <h4>About The Iron Yard Academy</h4>
 
-            <p>The Iron Yard Academy teaches intensive, three-month courses that mentor students into professional junior-level programmers. Our program goes far beyond tactical skills and teaches students to think like a software engineer. Students have spent the past twelve weeks studying either Ruby on Rails Engineering or Front End Engineering and today they will present their final projects, which showcase the skills they have learned.</p>
+            <p>The Iron Yard Academy teaches intensive, three-month courses that mentor students into professional junior-level
+              programmers. Our program goes far beyond tactical skills and teaches students to think like a software engineer.
+              Students have spent the past twelve weeks studying either Ruby on Rails Engineering or Front End Engineering and
+              today they will present their final projects, which showcase the skills they have learned.</p>
 
             <%= image_tag "houston-blog-header.jpg", class: "about-img"%>
         </div>
@@ -46,7 +49,7 @@
 
         </div>
     </div>
-<%if data.responses.select {|c| c.city == "#{city_name}"}.empty? %>
+<%if all_students.select {|c| c.city == "#{city_name}"}.empty? %>
 <h2>Check Back Soon For Developer Profiles</h2>
 <% else %>
     <div>
@@ -81,16 +84,16 @@
     </div>
 <% end %>
 
-<% if ui.select {|c| c.city == "#{city_name}"}.empty? %>
+<% if python.select {|c| c.city == "#{city_name}"}.empty? %>
 
 <% else %>
     <div class="page-break-before">
-        <h4>UI Design</h4>
+        <h4>Python Engineering</h4>
     </div>
     <div class="grid grid-2-640 projects">
 
 
-      <% ui.select {|c| c.city == "#{city_name}"}.each do |response| %>
+      <% python.select {|c| c.city == "#{city_name}"}.each do |response| %>
         <%= partial "project", locals: {response: response} %>
       <% end %>
     </div>

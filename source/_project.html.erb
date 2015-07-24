@@ -1,7 +1,7 @@
 <div class="project vslide page-break-inside">
     <div class="table">
         <div>
-            <span style="background-image: url(<%= response.pic %>)">
+            <span style="background-image: url(<%= response.profile_pic_link %>)">
         </div>
         <div>
 
@@ -17,13 +17,13 @@
 
     <h5 class="hideable">TECHNOLOGY USED</h5>
 
-    <p class="hideable"><%= response.tech.upcase %></p>
+    <p class="hideable"><%= response.tech_used.upcase %></p>
 
     <div class="table">
       <div>
-        <h6>Portfolio Site: <%= link_to response.portfolio, url_with_protocol(response.portfolio), :target => '_blank' %></h6>
+        <h6>Portfolio Site: <%= link_to response.portfolio_url, url_with_protocol(response.portfolio), :target => '_blank' %></h6>
         <h6>Email Address: <%= mail_to response.email %></h6>
-        <h6>GitHub Username: <%= link_to (response.github || "").split("/")[3], url_with_protocol(response.github), :target => '_blank' %></h6>
+        <h6>GitHub Username: <%= link_to (response.github_url || "").split("/")[3], url_with_protocol(response.github), :target => '_blank' %></h6>
       </div>
 
     </div>

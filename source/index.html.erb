@@ -77,6 +77,28 @@
       <% end %>
     </div>
 
+    <div class="page-break-before">
+        <h4>Python Engineering</h4>
+    </div>
+    <div class="grid grid-2-640 projects">
+
+
+      <% python.each do |response| %>
+        <%= partial "project", locals: {response: response} %>
+      <% end %>
+    </div>
+
+    <div class="page-break-before">
+        <h4>Mobile Engineering</h4>
+    </div>
+    <div class="grid grid-2-640 projects">
+
+
+      <% mobile.each do |response| %>
+        <%= partial "project", locals: {response: response} %>
+      <% end %>
+    </div>
+
 <h4 class="c hideable page-break-before">Staff Profiles</h4>
 
       <% staff.each do |staff| %>
