@@ -1,5 +1,6 @@
 @import "./_normalize.scss";
 @import "./_typeplate.scss";
+@import "./_colors.scss";
 
 @mixin gridify($col, $width, $gutter: 0) {
     @media only screen and (min-width: #{$width}#{"px"}){

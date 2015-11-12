@@ -4,38 +4,76 @@ require "json"
 require 'open-uri'
 
 
-["Atlanta", "Charleston", "Greenville", "Las_Vegas", "Nashville", "Orlando", "Washington_D_C", "Tampa", "Spartenburg", "London", "Durham", "Houston", "Austin"].each do |city|
-  proxy "/#{city}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
+# ["Atlanta", "Charleston", "Greenville", "Las-Vegas", "Nashville", "Orlando", "Washington-DC", "Tampa",
+#   "Columbia", "London", "Durham", "Houston", "Austin", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].each do |city|
+#   proxy "/#{city.downcase}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
+# end
+
+["Houston"].each do |city|
+  proxy "/index.html", "/template.html", :locals => { :city_name => city }, :ignore => true
 end
 
 helpers do
 
-  def all_students
+
+  def image_name_for_city(city)
+    if city == "Tampa"
+      "http://theironyard.com/images/locations/tampa/st-petersburg.jpg"
+    elsif city == "Nashville"
+      "http://theironyard.com/images/locations/nashville/nashville-hero.jpeg"
+    elsif city == "London"
+      "https://www.ironyard.co.uk/images/locations/london/london-hero.jpg"
+    elsif ["Las-Vegas", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].include? city
+      "http://theironyard.com/images/locations/#{city.downcase}/#{city.downcase}-hero.jpg"
+    else
+      "http://theironyard.com/images/locations/#{city.downcase}/#{city.downcase}.jpg"
+    end
+  end
+
+
+  def city_demo_date(city)
+    all_students.select{|c| c["city"] == city}.map{|s| s["demo_day_date"]}.uniq
+  end
+
+  def all_courses(city)
+    all_students.select{|c| c["city"] == city}.map{|s| s["course"]}.uniq
+  end
+
+  def fetch_students
     json = open("https://tiydemoday.herokuapp.com/api/v1/students").read
     JSON.parse(json)["students"].map do |hash|
       OpenStruct.new(hash)
     end
   end
 
+  def all_students
+    @all_students ||= fetch_students
+  end
+
+  def current_houston
+    all_students.select {|c| c["cohort_id"] == 16}
+    # all_students
+  end
+
 # filters rails students
     def rails
-      all_students.select {|c| c["course"] =~ /Rails Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      current_houston.select {|c| c["course"] =~ /Rails Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 
 # filters js students
     def js
-      all_students.select {|c| c["course"] =~ /Front End Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      current_houston.select {|c| c["course"] =~ /Front End Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 # filters ui students
     def python
-      all_students.select {|c| c["course"] =~ /Python Data Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      current_houston.select {|c| c["course"] =~ /Python Data Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 # filters mobile students
     def mobile
-      all_students.select {|c| c["course"] =~ /Mobile Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
+      current_houston.select {|c| c["course"] =~ /Mobile Engineering/}.sort_by {|lastname| lastname["name"].split(" ").last}
     end
 
 
@@ -46,7 +84,11 @@ helpers do
 
     # Staff csv file
     def staff
-      data.staff.sort_by {|lastname| lastname.name.split(" ").last}
+      data.staff.sort_by {|lastname| lastname.name.split(" ").last}.reverse
+    end
+
+    def ta
+      data.ta.sort_by {|lastname| lastname.name.split(" ").last}
     end
 end
 
@@ -101,9 +143,9 @@ end
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+    configure :development do
+       activate :livereload
+    end
 
 # Methods defined in the helpers block are available in templates
 # helpers do

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Alex Allen",
+    "title": "Teacher Assistant",
+    "bio": "",
+    "pic": "https://dl.dropboxusercontent.com/u/335432/Headshot%20%2819%20of%2021%29%20%281%29.jpg",
+    "city": "Houston",
+    "order": "6"
+  },
+  {
+    "name": "Travis Hubbard",
+    "title": "Teacher Assistant",
+    "bio": "Travis wrote his first line of Javascript on his birthday in 2014 and has been obsessed with coding ever since. He went through the Iron Yard program in the winter of 2014 and has worked as a teacher assistant during the last two cohorts helping students with everything from page layouts, Javascript syntax basics, advanced frameworks, user interface development, and programmatic problem solving. Recently, he has fallen in love with React.js and will talk to all interested and uninterested parties about the merits of the framework. When not in front of a computer, Travis enjoys miscellaneous events around the city, salsa dancing, two steppin, cooking, reading, and spending time with family.",
+    "pic": "https://lh3.googleusercontent.com/SkmFgL8voKVdfeJUtUMqm24ZE50yzTcDuJtoKj_-Ik2Ey30meRWCixTbKX__zG8f7haT4SQDrfMTPC-YeSQiNb2boAjfKiZ3tqtkJnr3Ro_oJlVeH3lwCHxbXI8D2u9meXhKP_a3gJPFSvsuZElwb6jeoPEdb4r1DNLrPX5JfQpMp6nBklvUjme7rExRJhIvX79n7gaQYoJ6-SnaX_65Qx-jLI3UeM2RxDJwnZpLTleWAVO6lK3oe25P6Ve4NyFQArveqTxUFvWq7rjQpjx_9HZf7N3BfV7TuvT3YU8QbLD_HIlW-dJT2uH35jZFdCEf1p10xYAEWX7L3cFCbiXqcJEH6PznJkAUTLP7lwZF69y-P_mNGOaLi8goL5k7vgRaln56FTJjOLMXbIotNYC--WhHbFD6pQesw1V9tUlHgaOzL24wYeDsqsRqz7fUbfulnEAG44Fv9igIgGhw3s1GupvcbxsVjwICXK7I4gtv8uIS5cCAoHlRkEoZ0y5F61ZKAmp6VchZT45RDGQMusB9M0usuLzIItUJ77wypGJ10hwA=s778-no",
+    "city": "Houston",
+    "order": "5"
+  }
+]
