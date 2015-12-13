@@ -1,6 +1,8 @@
 @import "./_normalize.scss";
 @import "./_typeplate.scss";
 @import "./_colors.scss";
+@import "./_font.scss";
+
 
 @mixin gridify($col, $width, $gutter: 0) {
     @media only screen and (min-width: #{$width}#{"px"}){
@@ -58,5 +60,4 @@
 body {
     transition: opacity .25s ease;
 }
-
-@import "./_demoday.scss";
+@import "demoday";

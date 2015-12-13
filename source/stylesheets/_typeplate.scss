@@ -8,6 +8,17 @@ LICENSE ....... Creative Commmons Attribution 3.0 (http://creativecommons.org/li
 LICENSE URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
 */
 
+@font-face {
+  font-family: 'TisaPro';
+  src: url('TisaPro.eot');
+  src: url('TisaPro.eot?#iefix') format('embedded-opentype'),
+       url('TisaPro.woff2') format('woff2'),
+       url('TisaPro.woff') format('woff'),
+       url('TisaPro.ttf') format('truetype'),
+       url('TisaPro.svg#TisaPro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /**
  *
@@ -28,6 +39,7 @@ LICENSE URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
   unicode-range: U+270C;
 }
 
+$mainFont: 'TisaPro';
 
 /**
  *
@@ -133,7 +145,7 @@ body {
   -ms-hyphens: auto;
   hyphens: auto;
   word-wrap: break-word;
-  color: #444444;
+  color: #202F37;
 }
 
 
@@ -162,6 +174,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $mainFont;
   line-height: 1;
   margin-top: 0;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
@@ -272,11 +285,13 @@ h6,
 
 p {
   margin: auto auto 1.5em; /* bottom margin for paragraphs */
+  font-family: $mainFont;
 }
 
 p + p {
   text-indent: 1.5em; /* indent subsequent paragraphs */
   margin-top: -1.5em; /* no top margin on subsequent paragraphs */
+  font-family: $mainFont;
 }
 
 
