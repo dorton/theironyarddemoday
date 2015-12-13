@@ -26,7 +26,7 @@ helpers do
     elsif ["Las-Vegas", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].include? city
       "http://theironyard.com/images/locations/#{city.downcase}/#{city.downcase}-hero.jpg"
     else
-      "http://theironyard.com/images/locations/#{city.downcase}/#{city.downcase}.jpg"
+      "https://www.theironyard.com/content/dam/theironyard/locations/#{city.downcase}/header_#{city.downcase}.jpg"
     end
   end
 
