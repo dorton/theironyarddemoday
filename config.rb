@@ -4,10 +4,10 @@ require "json"
 require 'open-uri'
 
 
-["Atlanta", "Charleston", "Greenville", "Las-Vegas", "Nashville", "Orlando", "Washington-DC", "Tampa",
-  "Columbia", "London", "Durham", "Houston", "Austin", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].each do |city|
-  proxy "/#{city.downcase}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
-end
+# ["Atlanta", "Charleston", "Greenville", "Las-Vegas", "Nashville", "Orlando", "Washington-DC", "Tampa",
+#   "Columbia", "London", "Durham", "Houston", "Austin", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].each do |city|
+#   proxy "/#{city.downcase}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
+# end
 
 ["Houston"].each do |city|
   proxy "/index.html", "/template.html", :locals => { :city_name => city }, :ignore => true
