@@ -4,10 +4,10 @@ require "json"
 require 'open-uri'
 
 
-# ["Atlanta", "Charleston", "Greenville", "Las-Vegas", "Nashville", "Orlando", "Washington-DC", "Tampa",
-#   "Columbia", "London", "Durham", "Houston", "Austin", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].each do |city|
-#   proxy "/#{city.downcase}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
-# end
+["Atlanta", "Charleston", "Greenville", "Las-Vegas", "Nashville", "Orlando", "Washington-DC", "Tampa",
+  "Columbia", "London", "Durham", "Houston", "Austin", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].each do |city|
+  proxy "/#{city.downcase}.html", "/template.html", :locals => { :city_name => city }, :ignore => true
+end
 
 ["Houston"].each do |city|
   proxy "/index.html", "/template.html", :locals => { :city_name => city }, :ignore => true
@@ -23,7 +23,7 @@ helpers do
       "http://theironyard.com/images/locations/nashville/nashville-hero.jpeg"
     elsif city == "London"
       "https://www.ironyard.co.uk/images/locations/london/london-hero.jpg"
-    elsif ["Las-Vegas", "Little-Rock", "San-Antonio", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].include? city
+    elsif ["Las-Vegas", "Little-Rock", "Dallas", "SLC", "Charlotte", "Indianapolis", "Raleigh"].include? city
       "http://theironyard.com/images/locations/#{city.downcase}/#{city.downcase}-hero.jpg"
     else
       "https://www.theironyard.com/content/dam/theironyard/locations/#{city.downcase}/header_#{city.downcase}.jpg"
