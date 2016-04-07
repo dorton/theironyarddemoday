@@ -585,77 +585,86 @@ h6 {
   font-size: 6.5rem;
   /* 117 / 18 = 6.5 */
   margin-bottom: 4.56923px;
-  margin-bottom: 0.25385rem; }
+  margin-bottom: 0.25385rem;
+  font-family: "TisaPro"; }
 
-/* line 217, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 218, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-giga {
   font-size: 90px;
   font-size: 5rem;
   /* 90 / 18 = 5 */
   margin-bottom: 5.94px;
-  margin-bottom: 0.33rem; }
+  margin-bottom: 0.33rem;
+  font-family: "TisaPro"; }
 
-/* line 224, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 226, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-mega {
   font-size: 72px;
   font-size: 4rem;
   /* 72 / 18 = 4 */
   margin-bottom: 7.425px;
-  margin-bottom: 0.4125rem; }
+  margin-bottom: 0.4125rem;
+  font-family: "TisaPro"; }
 
-/* line 231, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 234, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h1,
 .typl8-alpha {
   font-size: 60px;
   font-size: 3.33333rem;
   /* 60 / 18 = 3.3333 */
   margin-bottom: 8.91px;
-  margin-bottom: 0.495rem; }
+  margin-bottom: 0.495rem;
+  font-family: "TisaPro"; }
 
-/* line 239, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 243, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h2,
 .typl8-beta {
   font-size: 48px;
   font-size: 2.6667rem;
   /* 48 / 18 = 2.6667 */
   margin-bottom: 11.1375px;
-  margin-bottom: 0.61875rem; }
+  margin-bottom: 0.61875rem;
+  font-family: "TisaPro"; }
 
-/* line 247, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 252, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h3,
 .typl8-gamma {
   font-size: 36px;
   font-size: 2rem;
   /* 36 / 18 = 2 */
   margin-bottom: 14.85px;
-  margin-bottom: 0.825rem; }
+  margin-bottom: 0.825rem;
+  font-family: "TisaPro"; }
 
-/* line 255, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 261, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h4,
 .typl8-delta {
   font-size: 24px;
   font-size: 1.3333333333333333rem;
   /* 24 / 18 = 1.3333 */
   margin-bottom: 22.275px;
-  margin-bottom: 1.2375rem; }
+  margin-bottom: 1.2375rem;
+  font-family: "TisaPro"; }
 
-/* line 263, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 270, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h5,
 .typl8-epsilon {
   font-size: 21px;
   font-size: 1.16667rem;
   /* 21 / 18 = 1.1667 */
   margin-bottom: 25.45714px;
-  margin-bottom: 1.41429rem; }
+  margin-bottom: 1.41429rem;
+  font-family: "TisaPro"; }
 
-/* line 271, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 279, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 h6,
 .typl8-zeta {
   font-size: 18px;
   font-size: 1rem;
   /* 18 = 18 × 1 */
   margin-bottom: 29.7px;
-  margin-bottom: 1.65rem; }
+  margin-bottom: 1.65rem;
+  font-family: "TisaPro"; }
 
 /**
  *
@@ -663,13 +672,13 @@ h6,
    Paragraphs and Indentation
  * =======================================================================
  */
-/* line 287, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 296, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 p {
   margin: auto auto 1.5em;
   /* bottom margin for paragraphs */
   font-family: "TisaPro"; }
 
-/* line 292, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 301, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 p + p {
   text-indent: 1.5em;
   /* indent subsequent paragraphs */
@@ -683,7 +692,7 @@ p + p {
    Hyphens
  * =======================================================================
  */
-/* line 306, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 315, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 input,
 abbr,
 acronym,
@@ -706,17 +715,17 @@ var {
    Code Blocks
  * =======================================================================
  */
-/* line 330, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 339, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 pre code {
   word-wrap: normal;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap; }
 
-/* line 336, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 345, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 pre {
   white-space: pre; }
 
-/* line 340, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 349, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 code {
   white-space: pre;
   font-family: monospace; }
@@ -732,7 +741,7 @@ code {
  * Extend this object into your markup.
  * =======================================================================
  */
-/* line 358, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 367, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 abbr {
   -webkit-font-variant: small-caps;
   -moz-font-variant: small-caps;
@@ -742,7 +751,7 @@ abbr {
   text-transform: lowercase;
   color: gray; }
 
-/* line 368, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 377, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 abbr[title]:hover {
   cursor: help;
   /* cursor changed to a question mark when it has a title */ }
@@ -764,23 +773,23 @@ abbr[title]:hover {
  * Extend this object into your markup.
  *
  */
-/* line 391, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 400, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-lining dt,
 .typl8-lining dd {
   display: inline;
   margin: 0; }
 
-/* line 396, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 405, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-lining dt + dt:before,
 .typl8-lining dd + dt:before {
   content: "\A";
   white-space: pre; }
 
-/* line 401, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 410, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-lining dd + dd:before {
   content: ", "; }
 
-/* line 404, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 413, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-lining dd:before {
   content: ": ";
   margin-left: -0.2em; }
@@ -796,22 +805,22 @@ abbr[title]:hover {
  * Extend this object into your markup.
  *
  */
-/* line 421, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 430, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-dictionary-style dt {
   display: inline;
   counter-reset: definitions; }
 
-/* line 425, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 434, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-dictionary-style dt + dt:before {
   content: ", ";
   margin-left: -0.2em; }
 
-/* line 429, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 438, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-dictionary-style dd {
   display: block;
   counter-increment: definitions; }
 
-/* line 433, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 442, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-dictionary-style dd:before {
   content: counter(definitions,decimal) ". "; }
 
@@ -838,17 +847,17 @@ abbr[title]:hover {
  * Extend this object into your markup.
  *
  */
-/* line 463, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 472, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-blockquote p:last-of-type {
   margin-bottom: -0.825em; }
 
-/* line 467, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 476, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-blockquote + figcaption {
   display: block;
   font-size: inherit;
   text-align: right; }
 
-/* line 473, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 482, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-blockquote + figcaption:before {
   content: "-";
   /* "-" is your citation flourish */ }
@@ -871,12 +880,12 @@ abbr[title]:hover {
  * Extend this object into your custom stylesheet.
  *
  */
-/* line 497, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 506, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-pull-quote {
   position: relative;
   padding: 1em; }
 
-/* line 501, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 510, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-pull-quote:before,
 .typl8-pull-quote:after {
   height: 1em;
@@ -885,13 +894,13 @@ abbr[title]:hover {
   font-size: 4em;
   color: #dc976e; }
 
-/* line 509, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 518, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-pull-quote:before {
   content: '“';
   top: 0;
   left: 0; }
 
-/* line 514, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
+/* line 523, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_typeplate.scss */
 .typl8-pull-quote:after {
   content: '”';
   bottom: 0;
