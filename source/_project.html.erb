@@ -1,4 +1,4 @@
-<div class="project vslide page-break-inside">
+<div class="project page-break-before">
   <h4><%= response.name.upcase %></h4>
     <div class="table">
         <div>
@@ -19,14 +19,10 @@
 
     <p class="hideable"><%= response.tech_used.upcase %></p>
 
-    <div class="table">
       <div>
-        <!-- <h6>Portfolio Site: <%= link_to response.portfolio_url, url_with_protocol(response.portfolio_url), :target => '_blank' %></h6> -->
         <h6>Email Address: <%= mail_to response.email %></h6>
         <h6>GitHub Username: <%= link_to (response.github_url || "").split("/")[3], url_with_protocol(response.github_url), :target => '_blank' %></h6>
       </div>
-
-    </div>
 
 
 </div>

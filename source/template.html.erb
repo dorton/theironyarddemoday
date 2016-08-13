@@ -5,16 +5,19 @@
 
     <title>Demo Day | The Iron Yard <%= "#{city_name.titleize}"%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script type="text/javascript">
+      window.location = "https://www.theironyard.com/locations/houston.html";
+    </script> -->
 
 </head>
 
 <body style="">
-    <div class="grid grid-2-640 hideable">
+    <div class="grid grid-2-640 ">
         <div class="vslide c">
             <h1 class="tera">Demo
                 <br>Day</h1>
             <h3><%= "The Iron Yard"%></h3>
-          <p> <%= city_demo_date(city_name).first %> </p>
+          <p> <%= city_demo_date(city_name).last %> </p>
 
 
 
@@ -54,7 +57,7 @@
         <div>
             <h4>Interested in taking a class or learning more?</h4>
 
-            <p>Our next classes begin February 1, 2016. We are accepting applications now. Applications can be found on our website:
+            <p>Our next classes begin May 23, 2016. We are accepting applications now. Applications can be found on our website:
               <a href="http://theironyard.com/apply" target="_blank">theironyard.com/apply</a>. We also offer free classes for kids
               and host a variety of meet-ups and free events. For more information on any of these programs, visit our website or
               email <%= mail_to "#{city_name.downcase}@theironyard.com" %>.</p>
@@ -72,7 +75,7 @@
     <% else %>
     <div>
         <h4>Back End Engineering</h4>
-    </div>
+    </div class="page-break-before">
     <div class="grid grid-2-640 projects">
 
       <% rails.select {|c| c.city == "#{city_name}"}.each do |response| %>

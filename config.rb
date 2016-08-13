@@ -51,7 +51,7 @@ helpers do
   end
 
   def current_houston
-    all_students.select {|c| c["cohort_id"] == 16}
+    all_students.select {|c| c["cohort_id"] == 19}
     # all_students
   end
 
