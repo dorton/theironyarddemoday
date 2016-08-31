@@ -1181,44 +1181,53 @@ p + p {
  * --------------------
  */
 /* line 169, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+.sponsor {
+  margin-bottom: 100px; }
+
+/* line 173, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+img.sponsor {
+  min-width: 30%; }
+
+/* line 177, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .c {
   text-align: center; }
 
-/* line 172, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 180, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 img {
   max-width: 100%; }
 
-/* line 175, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 183, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .staff img {
   border-radius: 50%;
-  max-height: 7em; }
+  width: 5em;
+  height: 5em; }
 
 @media print {
-  /* line 180, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 189, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .page-break-after {
     display: block;
     page-break-after: always; } }
 
 @media print {
-  /* line 188, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 197, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .page-break-before {
     display: block;
     page-break-before: always; } }
 
 @media print {
-  /* line 196, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 205, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .page-break-inside {
     display: block;
     page-break-inside: avoid; } }
 
-/* line 204, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 213, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .staff .table > :nth-child(1) {
   width: 15%;
   min-width: 100px;
   padding-right: 1em;
   text-align: right; }
 
-/* line 210, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 219, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .project span {
   border-radius: 50%;
   width: 75px;
@@ -1227,83 +1236,91 @@ img {
   background-position: center;
   display: inline-block; }
 
-/* line 218, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 227, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .project span:after {
   padding-top: 95%;
   content: '';
   display: inline-block; }
 
-/* line 223, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 232, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .project {
   padding: 0 3em; }
-  /* line 225, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 234, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .project .table {
     width: 100%; }
-    /* line 227, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+    /* line 236, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
     .project .table > :nth-child(1) {
       padding-right: .5em; }
-    /* line 230, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+    /* line 239, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
     .project .table > :nth-child(2) p {
       margin-bottom: 0; }
 
-/* line 235, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 244, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .thank-you ul {
   display: inline-block;
   text-align: left; }
 
-/* line 239, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 248, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .thank-you > * {
   text-align: center; }
 
-/* line 242, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
-.footer {
-  margin-top: 2em; }
+@media print {
+  /* line 253, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  .last_page {
+    height: 9in;
+    position: relative; }
 
-/* line 245, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 257, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  .footer {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%); } }
+/* line 265, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .about-img {
   object-fit: cover; }
 
-/* line 249, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 269, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .about-container {
   width: 623px;
   height: 123px;
   overflow: hidden; }
 
-/* line 255, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 275, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 p {
   max-width: 800px; }
 
-/* line 258, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 278, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .table p {
   margin-left: 0;
   margin-right: 0; }
 
-/* line 262, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 282, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .showable {
   display: none; }
 
-/* line 266, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 286, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .grid h5 {
   margin-top: .75em;
   color: #434A54; }
-  /* line 270, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 290, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .grid h5 a {
     color: #434A54;
     text-decoration: underline; }
 
-/* line 277, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 297, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .grid h6 {
   color: #434A54; }
-  /* line 279, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 299, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .grid h6 a {
     color: #434A54;
     text-decoration: underline; }
 
-/* line 285, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 305, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .grid h4 {
   text-align: left; }
 
-/* line 289, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 309, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 .grid h4:after {
   content: "";
   display: block;
@@ -1312,56 +1329,56 @@ p {
   margin: 0 auto;
   border-bottom: 2px solid currentColor; }
 
-/* line 298, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+/* line 318, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
 #min:target {
   font-size: .75em; }
-  /* line 301, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 321, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .project .table > :nth-child(1) {
     display: none; }
-  /* line 304, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 324, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .project .table > :nth-child(2) {
     width: 100%; }
   @media (min-width: 400px) {
-    /* line 312, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+    /* line 332, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
     #min:target .grid-2-640 > * {
       width: 33%; } }
-  /* line 316, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 336, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .hideable {
     display: none; }
-  /* line 319, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 339, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .showable {
     display: block; }
-  /* line 322, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 342, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .vslide {
     min-height: 0px; }
-  /* line 325, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 345, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   #min:target .logotype-area {
     width: 100% !important; }
 
 @media (max-width: 500px) {
-  /* line 331, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 351, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   html {
     border-left: 0.75em solid #202F37;
     border-right: 0.75em solid #202F37; }
 
-  /* line 335, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 355, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .project {
     padding: 0.25em; }
 
-  /* line 338, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 358, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .project .table > :nth-child(1), .staff .table > :nth-child(1) {
     width: inherit;
     text-align: center; }
 
-  /* line 343, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 363, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .grid h4 {
     text-align: center; }
 
-  /* line 347, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+  /* line 367, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
   .table {
     display: block;
     text-align: center; }
-    /* line 350, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
+    /* line 370, /Users/dorton/githubprojects/theironyarddemoday/source/stylesheets/_demoday.scss */
     .table > * {
       display: inherit;
       text-align: center; } }
