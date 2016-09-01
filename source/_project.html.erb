@@ -6,7 +6,7 @@
         </div>
         <div>
             <h5><%= response.app_name.upcase %></h5>
-            <h5><%= link_to response.app_url, url_with_protocol(response.app_url), :target => '_blank' %></h5>
+            <h5><%= link_to url_with_protocol(response.app_url), url_with_protocol(response.app_url), :target => '_blank' %></h5>
 
         </div>
     </div>
@@ -21,7 +21,10 @@
 
       <div>
         <h6>Email Address: <%= mail_to response.email %></h6>
-        <h6>GitHub Username: <%= link_to (response.github_url || "").split("/")[3], url_with_protocol(response.github_url), :target => '_blank' %></h6>
+        <h6>GitHub Username: <%= link_to (url_with_protocol(response.github_url) || "").split("/")[3], url_with_protocol(response.github_url), :target => '_blank' %></h6>
+        <% unless response.portfolio_url.blank? %>
+          <h6>Portfolio: <%= link_to "#{url_with_protocol(response.portfolio_url)}", url_with_protocol(response.portfolio_url), :target => '_blank' %></h6>
+        <% end %>
       </div>
 
 
